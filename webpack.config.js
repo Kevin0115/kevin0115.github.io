@@ -2,14 +2,12 @@ const path = require('path');
 const SRC_DIR = path.join(__dirname, '/react-client/src');
 const DIST_DIR = path.join(__dirname, '/react-client/dist');
 const webpack = require('webpack');
+
 module.exports = {
-  entry: `${SRC_DIR}/index.jsx`,
+  entry: `${SRC_DIR}/index.js`,
   output: {
     path: DIST_DIR,
     filename: 'bundle.js',
-  },
-  resolve: {
-    extensions: ['.js', '.jsx', '.json', '.css']
   },
   module : {
     rules : [
