@@ -10,8 +10,8 @@
 }
 
 .link-item:hover {
-    background-color: #222;
-    box-shadow: 0 0 10px 6px #222;
+    background-color: #555;
+    box-shadow: 0 0 10px 4px #555;
     transition: all 0.2s ease-in-out;
 }
 

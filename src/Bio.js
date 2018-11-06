@@ -1,12 +1,32 @@
 import React, { Component } from 'react';
+import ScrollableAnchor from 'react-scrollable-anchor';
 import LinkItem from './LinkItem';
 import './Bio.css';
 
 import Portrait from './images/portrait.JPG';
-import Background from './images/background.jpeg';
+import Background from './images/biobackground.jpeg';
 import Resume from './images/resume.svg';
 import GitHub from './images/github.svg';
 import LinkedIn from './images/linkedin.svg';
+
+const tableContents = [
+  {
+    section: "#exp-anchor",
+    label: "Go to Technical Experience",
+  },
+  {
+    section: "#skills-anchor",
+    label: "Go to Technical Skills",
+  },
+  {
+    section: "#projects-anchor",
+    label: "Go to Projects",
+  },
+  {
+    section: "#photo-anchor",
+    label: "Go to Photography",
+  }
+]
 
 const linkItems = [
   {
@@ -34,17 +54,22 @@ const backgroundStyle = {
 export default class Bio extends Component {
   render() {
     return (
-      <div className="bio" style={backgroundStyle}>
-        <div className="bio-portrait">
-          <img className="portrait" src={Portrait} alt="portrait" />
+      <ScrollableAnchor id={'bio-anchor'}>
+        <div className="bio" style={backgroundStyle}>
+          <div className="bio-portrait">
+            <img className="portrait" src={Portrait} alt="portrait" />
+          </div>
+          <div className="bio-name">
+            Kevin Choi | Software Engineer
+          </div>
+          <div className="bio-links">
+            {this.renderLinkItems()}
+          </div>
+          <div className="bio-table-contents">
+            {this.renderTableContents()}
+          </div>
         </div>
-        <div className="bio-name">
-          Kevin Choi | Software Engineer
-        </div>
-        <div className="bio-links">
-          {this.renderLinkItems()}
-        </div>
-      </div>
+      </ScrollableAnchor>
     );
   }
 
@@ -52,6 +77,14 @@ export default class Bio extends Component {
     return linkItems.map((item) => {
       return (
         <LinkItem key={item.itemName} {...item} />
+      )
+    });
+  }
+
+  renderTableContents() {
+    return tableContents.map((item) => {
+      return (
+        <a key={item.section} href={item.section} className="contentLink">{item.label}</a>
       )
     });
   }
