@@ -1,0 +1,44 @@
+.skill-item {
+  display: flex;
+  flex-direction: column;
+  margin: 20px;
+  align-items: center;
+}
+
+.skill-layer {
+  margin: 18px;
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.skill-list {
+  display: flex;
+  flex-direction: column;
+  height: 48vh;
+  width: 18vw;
+  padding: 4px;
+  border-radius: 14px;
+  background-color: white;
+  box-shadow: 2px 2px 16px 0px #333;
+  overflow: hidden;
+}
+
+.specific-skill {
+  font-size: 18px;
+  font-weight: 360;
+  margin: 11px;
+  padding: 8px;
+  border-radius: 999px;
+  background-color: #ccc;
+  box-shadow: 2px 2px 8px 0px #333;
+  color: black;
+}
+
+@media only screen and (max-width: 750px) {
+  .skill-item,
+  .skill-list {
+    flex-direction: row;
+    height: 14vh;
+    width: 90vw;
+  }
+}
