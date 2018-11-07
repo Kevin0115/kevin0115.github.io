@@ -24,7 +24,7 @@ const skillsContent = [
     skill: ["Git", "Mercurial", "Jenkins", "Nuclide/Atom", "GDB"],
   },
   {
-    layer: "Hardware/Low-level",
+    layer: "Low-level",
     skill: ["C", "ARM/MIPS/x86 Assembly", "Verilog", "ModelSim", "Quartus"],
   },
 ]

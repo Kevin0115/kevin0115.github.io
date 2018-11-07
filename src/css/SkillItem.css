@@ -38,7 +38,16 @@
   .skill-item,
   .skill-list {
     flex-direction: row;
-    height: 14vh;
+    height: 16vh;
     width: 90vw;
+  }
+
+  .skill-list {
+    flex-wrap: wrap;
+  }
+
+  .specific-skill {
+    font-size: 3vw;
+    height: 4vw;
   }
 }
