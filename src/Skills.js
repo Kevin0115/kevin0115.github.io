@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import ScrollableAnchor from 'react-scrollable-anchor';
-import './Skills.css';
+import './css/Skills.css';
 
 import Background from './images/hobbiesbackground.jpeg'
 
@@ -13,7 +13,13 @@ export default class Skills extends Component {
   render() {
     return (
       <ScrollableAnchor id={'skills-anchor'}>
-      	<div className="skills" style={backgroundStyle} />
+      	<div className="skills" style={backgroundStyle}>
+          <div className="skills-title">
+            Technical Skills
+          </div>
+          <div className="skills-content">
+          </div>
+        </div>
    	  </ScrollableAnchor>
     );
   }

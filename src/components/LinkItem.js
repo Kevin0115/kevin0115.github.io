@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import PropTypes from 'prop-types';
-import './LinkItem.css';
+import '../css/LinkItem.css';
 
 export default class LinkItem extends Component {
   render() {

@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import ScrollableAnchor from 'react-scrollable-anchor';
-import LinkItem from './LinkItem';
-import './Bio.css';
+import LinkItem from './components/LinkItem';
+import './css/Bio.css';
 
 import Portrait from './images/portrait.JPG';
 import Background from './images/biobackground.jpeg';
@@ -9,14 +9,19 @@ import Resume from './images/resume.svg';
 import GitHub from './images/github.svg';
 import LinkedIn from './images/linkedin.svg';
 
+const backgroundStyle = {
+  backgroundImage: "url(" + Background + ")",
+  backgroundSize: "cover",
+};
+
 const tableContents = [
   {
     section: "#exp-anchor",
-    label: "Go to Technical Experience",
+    label: "Go to Experience",
   },
   {
     section: "#skills-anchor",
-    label: "Go to Technical Skills",
+    label: "Go to Skills",
   },
   {
     section: "#projects-anchor",
@@ -45,11 +50,6 @@ const linkItems = [
     imageUrl: Resume,
   },
 ]
-
-const backgroundStyle = {
-  backgroundImage: "url(" + Background + ")",
-  backgroundSize: "cover",
-};
 
 export default class Bio extends Component {
   render() {

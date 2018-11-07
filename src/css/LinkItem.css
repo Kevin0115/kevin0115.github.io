@@ -2,8 +2,8 @@
     display: flex;
     margin: 15px;
     padding-top: 3px;
-    width: 55px;
-    height: 55px;
+    width: 44px;
+    height: 44px;
     align-items: center;
     justify-content: center;
     border-radius: 999px;
@@ -11,10 +11,10 @@
 
 .link-item:hover {
     background-color: #555;
-    box-shadow: 0 0 10px 4px #555;
+    box-shadow: 0 0 10px 8px #555;
     transition: all 0.2s ease-in-out;
 }
 
 .link-item img {
-    width: 50px;
+    width: 40px;
 }

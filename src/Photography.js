@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import ScrollableAnchor from 'react-scrollable-anchor';
-import './Photography.css';
+import './css/Photography.css';
 
 import Background from './images/photobackground.jpeg'
 
@@ -13,7 +13,13 @@ export default class Photography extends Component {
   render() {
     return (
       <ScrollableAnchor id={'photo-anchor'}>
-      	<div className="photography" style={backgroundStyle} />
+      	<div className="photography" style={backgroundStyle}>
+          <div className="photography-title">
+            Photography Portfolio
+          </div>
+          <div className="photography-content">
+          </div>
+        </div>
       </ScrollableAnchor>
     );
   }

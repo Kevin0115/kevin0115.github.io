@@ -1,0 +1,47 @@
+.experience-item {
+	display: flex;
+	flex-direction: column;
+	height: 64vh;
+  width: 28vw;
+  margin: 20px;
+  align-items: center;
+  border-radius: 14px;
+	background-color: white;
+  box-shadow: 2px 2px 16px 0px #333;
+}
+
+.experience-item img {
+  display: block;
+  height: 60px;
+  width: auto;
+  margin: 10px;
+}
+
+.exp-item-pos-date {
+  display: flex;
+  flex-direction: column;
+	color: black;
+}
+
+.exp-item-pos-date p {
+  margin: 2px;
+}
+
+#position {
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.desc-list {
+  display: table-cell;
+  flex-direction: column;
+  margin: 10px 8px;
+  padding: 18px;
+  text-align: left;
+  vertical-align: center;
+}
+
+.desc-item {
+  margin: 0 0 14px;
+  color: black;
+}
