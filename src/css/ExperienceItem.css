@@ -1,13 +1,14 @@
 .experience-item {
 	display: flex;
 	flex-direction: column;
-	height: 64vh;
+	height: 72vh;
   width: 28vw;
   margin: 20px;
   align-items: center;
   border-radius: 14px;
 	background-color: white;
   box-shadow: 2px 2px 16px 0px #333;
+  overflow: hidden;
 }
 
 .experience-item img {
@@ -39,9 +40,26 @@
   padding: 18px;
   text-align: left;
   vertical-align: center;
+  overflow: hidden;
 }
 
 .desc-item {
   margin: 0 0 14px;
   color: black;
+}
+
+@media only screen and (max-width: 750px) {
+  .experience-item {
+    flex-direction: row;
+    height: 20vh;
+    width: 90vw;
+  }
+
+  .experience-item img {
+    height: 15vw;
+  }
+
+  .desc-list {
+    display: none;
+  }
 }
