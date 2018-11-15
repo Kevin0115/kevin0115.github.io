@@ -20,6 +20,24 @@
 }
 
 .photography-content {
+  width: 70%;
+  margin: auto;
+}
+
+.each-fade {
   display: flex;
-  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+
+.each-fade .image-container {
+  width: 90%;
+  overflow: hidden;
+}
+
+.each-fade .image-container img {
+  width: 95%;
+  margin: 4px;
+  border-radius: 10px;
+  box-shadow: 2px 2px 10px 2px #222;
 }

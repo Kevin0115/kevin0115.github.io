@@ -24,13 +24,13 @@ const tableContents = [
     label: "Go to Skills",
   },
   {
+    section: "#photo-anchor",
+    label: "Go to Photography",
+  },
+  {
     section: "#projects-anchor",
     label: "Go to Projects",
   },
-  {
-    section: "#photo-anchor",
-    label: "Go to Photography",
-  }
 ]
 
 const linkItems = [

@@ -17,7 +17,7 @@ const skillsContent = [
   },
   {
     layer: "Back-end",
-    skill: ["Java", "Node.js", "PHP", "Microservice Architecture"],
+    skill: ["Java", "Node.js", "MongoDB", "PHP", "Microservice Architecture"],
   },
   {
     layer: "Tools",
