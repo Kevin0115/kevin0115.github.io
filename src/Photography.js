@@ -20,23 +20,6 @@ const fadeProperties = {
 }
 
 export default class Photography extends Component {
-  // render() {
-  //   return (
-  //     <ScrollableAnchor id={'photo-anchor'}>
-  //     	<div className="photography" style={backgroundStyle}>
-  //         <div className="photography-title">
-  //           Photography Portfolio
-  //         </div>
-  //         <div className="photography-content">
-  //           <Fade {...fadeProperties}>
-  //             {this.renderPhotoContent()}
-  //           </Fade>
-  //         </div>
-  //       </div>
-  //     </ScrollableAnchor>
-  //   );
-  // }
-
   render() {
     return (
       <ScrollableAnchor id={'photo-anchor'}>
