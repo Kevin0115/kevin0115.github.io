@@ -8,6 +8,8 @@ import Background from './images/biobackground.jpeg';
 import Resume from './images/resume.svg';
 import GitHub from './images/github.svg';
 import LinkedIn from './images/linkedin.svg';
+import Instagram from './images/instagram.svg';
+import Facebook from './images/facebook_white.svg';
 
 const backgroundStyle = {
   backgroundImage: "url(" + Background + ")",
@@ -24,12 +26,12 @@ const tableContents = [
     label: "Go to Skills",
   },
   {
-    section: "#photo-anchor",
-    label: "Go to Photography",
-  },
-  {
     section: "#projects-anchor",
     label: "Go to Projects",
+  },
+  {
+    section: "#photo-anchor",
+    label: "Go to Photography",
   },
 ]
 
@@ -45,10 +47,20 @@ const linkItems = [
     imageUrl: LinkedIn,
   },
   {
+    itemName: "Instagram",
+    externalUrl: "https://www.instagram.com/kevnchoi/",
+    imageUrl: Instagram,
+  },
+  {
+    itemName: "Facebook",
+    externalUrl: "https://www.facebook.com/KevinC0115",
+    imageUrl: Facebook,
+  },
+  {
     itemName: "Resume",
     externalUrl: "https://github.com/Kevin0115/resume/raw/master/Kevin-Choi-Resume.pdf",
     imageUrl: Resume,
-  },
+  }
 ]
 
 export default class Bio extends Component {

@@ -8,7 +8,8 @@ export default class LinkItem extends Component {
       <div className="link-item" title={this.props.itemName}>
         <a
           className="link-item-title"
-          href={this.props.externalUrl}>
+          href={this.props.externalUrl}
+        >
           <img src={this.props.imageUrl} alt={this.props.itemName}/>
         </a>
       </div>

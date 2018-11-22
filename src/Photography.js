@@ -15,8 +15,8 @@ const backgroundStyle = {
 };
  
 const fadeProperties = {
-  duration: 3000,
-  transitionDuration: 700,
+  duration: 5000,
+  transitionDuration: 800,
 }
 
 export default class Photography extends Component {

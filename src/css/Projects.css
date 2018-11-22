@@ -10,8 +10,7 @@
 }
 
 .projects-title {
-  position: absolute;
-  top: 20px;
+  flex: 1;
   margin: 15px;
   font-size: 40px;
   font-weight: 400;
@@ -20,6 +19,14 @@
 }
 
 .projects-content {
+  flex: 999;
+  margin: 20px;
   display: flex;
   flex-direction: row;
+}
+
+@media only screen and (max-width: 750px) {
+  .projects-content {
+    flex-direction: column;
+  }
 }

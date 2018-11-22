@@ -47,6 +47,12 @@
   }
 
   .specific-skill {
+    height: 4vw;
+  }
+}
+
+@media only screen and (max-width: 500px) {
+  .specific-skill {
     font-size: 3vw;
     height: 4vw;
   }

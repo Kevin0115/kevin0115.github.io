@@ -19,17 +19,19 @@ import p18 from '../images/photography/slide (18).jpg';
 import p19 from '../images/photography/slide (19).jpg';
 import p20 from '../images/photography/slide (20).jpg';
 import p21 from '../images/photography/slide (21).jpg';
+import p22 from '../images/photography/slide (22).jpg';
 
 export const PhotoList = [
   p1,
+  p22,
   p2,
   p3,
   p4,
   p5,
-  p6,
+  // p6,
   p7,
   p8,
-  p9,
+  // p9,
   p10,
   p11,
   p12,
