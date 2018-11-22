@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import { Fade } from 'react-slideshow-image';
+import ImageGallery from 'react-image-gallery';
 import ScrollableAnchor from 'react-scrollable-anchor';
 import './css/Photography.css';
 
@@ -20,17 +20,39 @@ const fadeProperties = {
 }
 
 export default class Photography extends Component {
+  // render() {
+  //   return (
+  //     <ScrollableAnchor id={'photo-anchor'}>
+  //     	<div className="photography" style={backgroundStyle}>
+  //         <div className="photography-title">
+  //           Photography Portfolio
+  //         </div>
+  //         <div className="photography-content">
+  //           <Fade {...fadeProperties}>
+  //             {this.renderPhotoContent()}
+  //           </Fade>
+  //         </div>
+  //       </div>
+  //     </ScrollableAnchor>
+  //   );
+  // }
+
   render() {
     return (
       <ScrollableAnchor id={'photo-anchor'}>
-      	<div className="photography" style={backgroundStyle}>
+        <div className="photography" style={backgroundStyle}>
           <div className="photography-title">
             Photography Portfolio
           </div>
           <div className="photography-content">
-            <Fade {...fadeProperties}>
-              {this.renderPhotoContent()}
-            </Fade>
+            <ImageGallery 
+              items={images}
+              autoPlay={true}
+              showThumbnails={false}
+              slideInterval={4000}
+              slideDuration={900}
+              showPlayButton={false}
+            />
           </div>
         </div>
       </ScrollableAnchor>

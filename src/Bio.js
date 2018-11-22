@@ -19,19 +19,19 @@ const backgroundStyle = {
 const tableContents = [
   {
     section: "#exp-anchor",
-    label: "Go to Experience",
+    label: "Experience",
   },
   {
     section: "#skills-anchor",
-    label: "Go to Skills",
+    label: "Skills",
   },
   {
     section: "#projects-anchor",
-    label: "Go to Projects",
+    label: "Projects",
   },
   {
     section: "#photo-anchor",
-    label: "Go to Photography",
+    label: "Photography",
   },
 ]
 
@@ -68,18 +68,21 @@ export default class Bio extends Component {
     return (
       <ScrollableAnchor id={'bio-anchor'}>
         <div className="bio" style={backgroundStyle}>
-          <div className="bio-portrait">
-            <img className="portrait" src={Portrait} alt="portrait" />
-          </div>
-          <div className="bio-name">
-            Kevin Choi | Software Engineer
-          </div>
-          <div className="bio-links">
-            {this.renderLinkItems()}
-          </div>
           <div className="bio-table-contents">
             {this.renderTableContents()}
           </div>
+          <div className="bio-contents">
+            <div className="bio-portrait">
+              <img className="portrait" src={Portrait} alt="portrait" />
+            </div>
+            <div className="bio-name">
+              Kevin Choi | Software Engineer
+            </div>
+            <div className="bio-links">
+              {this.renderLinkItems()}
+            </div>
+          </div>
+          
         </div>
       </ScrollableAnchor>
     );
@@ -96,7 +99,9 @@ export default class Bio extends Component {
   renderTableContents() {
     return tableContents.map((item) => {
       return (
-        <a key={item.section} href={item.section} className="contentLink">{item.label}</a>
+        <div className="linkContainer">
+          <a key={item.section} href={item.section} className="contentLink">{item.label}</a>
+        </div>
       )
     });
   }

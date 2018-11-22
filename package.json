@@ -6,9 +6,9 @@
     "gh-pages": "^2.0.1",
     "react": "^16.5.2",
     "react-dom": "^16.5.2",
+    "react-image-gallery": "^0.8.12",
     "react-scripts": "2.0.4",
-    "react-scrollable-anchor": "^0.6.1",
-    "react-slideshow-image": "^1.0.8"
+    "react-scrollable-anchor": "^0.6.1"
   },
   "scripts": {
     "predeploy": "npm run build",
