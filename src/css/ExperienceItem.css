@@ -69,3 +69,9 @@
     display: none;
   }
 }
+
+@media only screen and (min-height: 1000px) {
+  .experience-item {
+    height: 40vh;
+  }
+}

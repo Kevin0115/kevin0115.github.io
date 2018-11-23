@@ -57,3 +57,9 @@
     height: 4vw;
   }
 }
+
+@media only screen and (min-height: 1000px) {
+  .skill-item {
+    height: 40vh;
+  }
+}
