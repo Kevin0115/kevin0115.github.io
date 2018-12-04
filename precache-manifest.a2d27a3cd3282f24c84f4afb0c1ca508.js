@@ -4,16 +4,16 @@ self.__precacheManifest = [
     "url": "/static/media/ubcfeedme.9dcb85e1.PNG"
   },
   {
-    "revision": "7798458550b0dd3900a5",
-    "url": "/static/css/main.d0df98fc.chunk.css"
+    "revision": "6838f036289d7a9f62b8",
+    "url": "/static/css/main.c5fd725f.chunk.css"
   },
   {
     "revision": "8bd1d6bdb970d48b4aeec8949dda461d",
     "url": "/static/media/slide (17).8bd1d6bd.jpg"
   },
   {
-    "revision": "dc8de425825f8143c865",
-    "url": "/static/js/1.dc8de425.chunk.js"
+    "revision": "fbc1fb292da326b811f1",
+    "url": "/static/js/1.fbc1fb29.chunk.js"
   },
   {
     "revision": "229c360febb4351a89df",
@@ -73,11 +73,15 @@ self.__precacheManifest = [
   },
   {
     "revision": "218d5f683a90bdea6ba667979734f12e",
-    "url": "/static/media/logotext.218d5f68.png"
+    "url": "/static/media/asapsports.218d5f68.png"
   },
   {
-    "revision": "7798458550b0dd3900a5",
-    "url": "/static/js/main.77984585.chunk.js"
+    "revision": "3019f6c3f8f96f53b2c47b36cfbed0e6",
+    "url": "/static/media/incognitoelf.3019f6c3.png"
+  },
+  {
+    "revision": "6838f036289d7a9f62b8",
+    "url": "/static/js/main.6838f036.chunk.js"
   },
   {
     "revision": "c25107692e4ccb9ebd6b3ee7970c1aee",
@@ -148,11 +152,11 @@ self.__precacheManifest = [
     "url": "/static/media/slide (16).f8bf7f48.jpg"
   },
   {
-    "revision": "dc8de425825f8143c865",
-    "url": "/static/css/1.2bfbdac5.chunk.css"
+    "revision": "fbc1fb292da326b811f1",
+    "url": "/static/css/1.32fa88e4.chunk.css"
   },
   {
-    "revision": "898b7a31844b3ca12d977812f3ba8a05",
+    "revision": "0229da6fcdac115b2d6132ee9a3c9ee6",
     "url": "/index.html"
   }
 ];
