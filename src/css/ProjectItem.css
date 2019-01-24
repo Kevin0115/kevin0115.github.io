@@ -6,7 +6,7 @@
   margin: 20px;
   align-items: center;
   border-radius: 14px;
-  background-color: white;
+  background-color: rgba(255, 255, 255, 1);
   box-shadow: 2px 2px 16px 0px #333;
   overflow: hidden;
 }
@@ -38,7 +38,8 @@
   font-weight: 450;
   padding: 6px;
   margin: 4px;
-  background-color: #ddd;
+  color: #fff;
+  background-color: rgb(150, 150, 150);
   border-radius: 8px;
 }
 
