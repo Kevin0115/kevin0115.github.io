@@ -17,7 +17,7 @@ const skillsContent = [
   },
   {
     layer: "Back-end",
-    skill: ["Java", "Node.js", "MongoDB", "PHP", "Microservice Architecture"],
+    skill: ["Java", "Node.js", "Express.js", "MongoDB", "PHP"],
   },
   {
     layer: "Tools",
@@ -25,7 +25,7 @@ const skillsContent = [
   },
   {
     layer: "Low-level",
-    skill: ["C", "ARM/MIPS/x86 Assembly", "Verilog", "ModelSim", "Quartus"],
+    skill: ["C", "ARM/MIPS/x86", "Verilog", "ModelSim", "Quartus"],
   },
 ]
 

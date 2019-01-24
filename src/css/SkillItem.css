@@ -24,10 +24,10 @@
 }
 
 .specific-skill {
-  font-size: 18px;
+  font-size: 16px;
   font-weight: 360;
-  margin: 11px;
-  padding: 8px;
+  margin: 10px;
+  padding: 7px;
   border-radius: 999px;
   background-color: #ccc;
   box-shadow: 2px 2px 8px 0px #333;
@@ -47,7 +47,7 @@
   }
 
   .specific-skill {
-    height: 4vw;
+    height: 3vw;
   }
 }
 
