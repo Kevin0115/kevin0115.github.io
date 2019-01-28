@@ -1,11 +1,11 @@
 self.__precacheManifest = [
   {
-    "revision": "9dcb85e1362a85649793f15e46bcaabc",
-    "url": "/static/media/ubcfeedme.9dcb85e1.PNG"
+    "revision": "63ca1683edb031ea1474b1260b0d15e3",
+    "url": "/static/media/ubcfeedme.63ca1683.png"
   },
   {
-    "revision": "f1dc751a532805915230",
-    "url": "/static/css/main.b40c4d03.chunk.css"
+    "revision": "c515f93dae39f13a5980",
+    "url": "/static/css/main.c54e4346.chunk.css"
   },
   {
     "revision": "8bd1d6bdb970d48b4aeec8949dda461d",
@@ -76,16 +76,16 @@ self.__precacheManifest = [
     "url": "/static/media/asapsports.218d5f68.png"
   },
   {
-    "revision": "3019f6c3f8f96f53b2c47b36cfbed0e6",
-    "url": "/static/media/incognitoelf.3019f6c3.png"
+    "revision": "8af3d5d4d36810105f8f8c7d6628eb6f",
+    "url": "/static/media/incognitoelf.8af3d5d4.png"
   },
   {
-    "revision": "f1dc751a532805915230",
-    "url": "/static/js/main.f1dc751a.chunk.js"
+    "revision": "c515f93dae39f13a5980",
+    "url": "/static/js/main.c515f93d.chunk.js"
   },
   {
-    "revision": "123d74b65d99ecf1ee9132e96239e9bc",
-    "url": "/static/media/issueexplorer.123d74b6.png"
+    "revision": "fce97cf1ade326cbab8b5dfde0bf643d",
+    "url": "/static/media/issueexplorer.fce97cf1.png"
   },
   {
     "revision": "c25107692e4ccb9ebd6b3ee7970c1aee",
@@ -160,7 +160,7 @@ self.__precacheManifest = [
     "url": "/static/css/1.edcb8517.chunk.css"
   },
   {
-    "revision": "ec30a2244f958c0756c87ffd4f28e39a",
+    "revision": "f25c1dcbd4ecaeeb5da941b1698bd18b",
     "url": "/index.html"
   }
 ];
