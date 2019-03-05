@@ -6,7 +6,7 @@ import Background from './images/projectbackground.jpeg'
 import ProjectItem from './components/ProjectItem';
 import ASAPSports from './images/asapsports.png';
 import IncognitoElf from './images/incognitoelf.png';
-import UBCFeedMe from './images/ubcfeedme.PNG';
+import UBCFeedMe from './images/ubcfeedme.png';
 import IssueExplorer from './images/issueexplorer.png';
 
 
