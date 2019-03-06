@@ -52,7 +52,7 @@ const linkItems = [
   },
   {
     itemName: "Resume",
-    externalUrl: "https://github.com/Kevin0115/resume/raw/master/Kevin-Choi-Resume.pdf",
+    externalUrl: "https://github.com/Kevin0115/resume/blob/master/Kevin-Choi-Resume.pdf",
     imageUrl: Resume,
   }
 ]
