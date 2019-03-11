@@ -1,77 +1,72 @@
 .experience-item {
-	display: flex;
-	flex-direction: column;
-  height: 68vh;
-  width: 28vw;
-  margin: 20px;
-  align-items: center;
-  border-radius: 14px;
-	background-color: rgba(255, 255, 255, 0.85);
-  box-shadow: 2px 2px 16px 0px #333;
-  overflow: hidden;
-}
-
-.experience-item img {
-  display: block;
-  height: 60px;
-  width: auto;
-  margin: 10px;
-}
-
-.exp-item-pos-date {
+  position: relative;
   display: flex;
-  flex-direction: column;
-	color: black;
-}
-
-.exp-item-pos-date p {
-  margin: 2px;
-}
-
-#position {
-  font-size: 18px;
-  font-weight: bold;
-}
-
-.desc-list {
-  display: table-cell;
-  flex-direction: column;
-  margin: 10px 12px;
-  padding: 18px;
-  text-align: left;
-  vertical-align: center;
+  flex-direction: row;
+  justify-content: flex-end;
+  margin-bottom: 60px;
+  background-color: #FFFFFF;
+  border-radius: 4px;
+  box-shadow: 0 50px 100px rgba(50, 50, 93, 0.05),
+      0 15px 35px rgba(50, 50, 93, 0.1), 0 5px 15px rgba(0, 0, 0, 0.1);
   overflow: hidden;
 }
 
-.desc-item {
-  margin: 0 0 8px;
-  color: black;
+.experience-background {
+  position: absolute;
+  top: -1px;
+  right: -1px;
+  height: 110%;
+  width: 80%;
+  background: url('../assets/images/vectorpaint.svg');
+  background-size: cover;
 }
 
-@media only screen and (max-width: 750px) {
-  .experience-item {
-    flex-direction: row;
-    height: 20vh;
-    width: 90vw;
-  }
+.experience-image {
+  width: 40%;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
 
-  .exp-item-pos-date {
-    width: 100%;
-    justify-content: center;
-    align-items: center;
-  }
+.experience-content {
+  z-index: 2;
+  width: 56%;
+  padding: 48px;
+  line-height: 1.6;
+}
 
-  .experience-item img {
-    height: 15vw;
-  }
+.company {
+  display: none;
+}
 
-  .desc-list {
+.position {
+  margin: 0;
+}
+
+.date {
+  font-style: italic;
+}
+
+.description {
+  margin-bottom: 8px;
+}
+
+@media only screen and (max-width: 900px) {
+  .experience-image, .experience-background {
     display: none;
   }
-}
 
-@media only screen and (min-height: 1000px) {
-  .experience-item {
-    height: 40vh;
+  .company {
+    display: block;
+    font-size: 1.5em;
+  }
+
+  .position {
+    font-size: 1em;
+  }
+
+  .experience-content {
+    width: 100%;
+    padding: 32px;
   }
 }

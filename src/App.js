@@ -1,11 +1,14 @@
 import React, { Component } from 'react';
-import './css/App.css';
+import ScrollableAnchor from 'react-scrollable-anchor';
+import './App.css';
 
-import Bio from './Bio';
-import Experience from './Experience';
-import Skills from './Skills';
-import Projects from './Projects';
-import Photography from './Photography';
+import NavBar from './components/NavBar';
+import Banner from './components/Banner';
+import Bio from './components/Bio';
+import Experience from './components/Experience';
+import Projects from './components/Projects';
+import Skills from './components/Skills';
+import Footer from './components/Footer';
 
 class App extends Component {
   constructor(props) {
@@ -15,7 +18,7 @@ class App extends Component {
 
   handleEsc(e) {
     if (e.keyCode === 27) {
-      window.location.href = '#bio-anchor';
+      window.location.href = '#home';
     }
   }
 
@@ -25,12 +28,14 @@ class App extends Component {
 
   render() {
     return (
-      <div className="App">
+      <div className="app-container">
+        <ScrollableAnchor id={'home'}><NavBar /></ScrollableAnchor>
+        <Banner />
         <Bio />
-        <Experience />
-        <Skills />
-        <Projects />
-        <Photography />
+        <ScrollableAnchor id={'skills'}><Skills /></ScrollableAnchor>
+        <ScrollableAnchor id={'experience'}><Experience /></ScrollableAnchor>
+        <ScrollableAnchor id={'projects'}><Projects /></ScrollableAnchor>
+        <Footer />
       </div>
     );
   }

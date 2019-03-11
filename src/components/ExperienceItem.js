@@ -1,19 +1,20 @@
 import React, { Component } from 'react';
-import PropTypes from 'prop-types';
 import '../css/ExperienceItem.css';
 
-export default class ExperienceItem extends Component {
+import Facebook from '../assets/images/facebook.png';
+
+class ExperienceItem extends Component {
   render() {
     return (
       <div className="experience-item">
-        <img src={this.props.imageUrl} alt={this.props.company} />
-        <div className="exp-item-pos-date">
-          <p id="position">{this.props.position}</p>
-          <p id="date">{this.props.date}</p>
-        </div>
-        <ul className="desc-list">
+        <img className="experience-image" src={this.props.imageUrl} />
+        <div className="experience-background" />
+        <div className="experience-content">
+          <h2 className="company">{this.props.company}</h2>
+          <h3 className="position">{this.props.position}</h3>
+          <p className="date">{this.props.date}</p>
           {this.renderDescription()}
-        </ul>
+        </div>
       </div>
     );
   }
@@ -21,15 +22,22 @@ export default class ExperienceItem extends Component {
   renderDescription() {
     return this.props.description.map((item) => {
       return (
-        <li key={item} className="desc-item">{item}</li>
+        <li key={item} className="description">{item}</li>
       )
     });
   }
 }
 
-ExperienceItem.propTypes = {
-  company: PropTypes.string,
-  position: PropTypes.string,
-  date: PropTypes.string,
-  imageUrl: PropTypes.string
-};
+ExperienceItem.defaultProps = {
+  company: 'Company Name',
+  position: 'Position Name',
+  date: 'September 2018 - December 2018',
+  imageUrl: Facebook,
+  description: [
+    'Provided weekly individual guidance and instruction regarding course material during office hours',
+    'Facilitated weekly lab sessions by assisting students with C++ programming and theory assignments',
+    'Evaluated student examinations and theory assignments by developing own grading rubric utilizing Gradescope'
+  ],
+}
+
+export default ExperienceItem;

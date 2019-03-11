@@ -1,18 +1,17 @@
 {
-  "name": "kevin0115.github.io",
+  "name": "portfolio",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
     "gh-pages": "^2.0.1",
     "react": "^16.5.2",
     "react-dom": "^16.5.2",
-    "react-image-gallery": "^0.8.12",
     "react-scripts": "2.0.4",
     "react-scrollable-anchor": "^0.6.1"
   },
   "scripts": {
     "predeploy": "npm run build",
-    "deploy": "gh-pages -b master -d build",
+    "deploy": "gh-pages -d build",
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
@@ -21,7 +20,7 @@
   "eslintConfig": {
     "extends": "react-app"
   },
-  "homepage": "https://kevin0115.github.io",
+  "homepage": "https://kevin0115.github.io/portfolio",
   "browserslist": [
     ">0.2%",
     "not dead",

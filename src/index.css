@@ -1,0 +1,72 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: "Montserrat-Light", sans-serif;
+  /* font-family: 'Monaco'; */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+}
+
+h1, h2 {
+  font-family: 'Monaco';
+}
+
+@font-face {
+  font-family: "Montserrat";
+  font-weight: normal;
+  src: local("Montserrat"),
+  url(./assets/fonts/montserrat-regular.woff) format("woff"),
+  url(./assets/fonts/montserrat-regular.woff2) format("woff2");
+}
+
+@font-face {
+  font-family: "Montserrat";
+  font-weight: bold;
+  src: local("Montserrat-Bold"),
+  url(./assets/fonts/montserrat-bold.woff) format("woff"),
+  url(./assets/fonts/montserrat-bold.woff2) format("woff2");
+}
+
+@font-face {
+  font-family: "Montserrat-Light";
+  src: local("Montserrat-Light"),
+  url(./assets/fonts/montserrat-light.woff) format("woff"),
+  url(./assets/fonts/montserrat-light.woff2) format("woff2");
+}
+
+@font-face {
+  font-family: "Inconsolata";
+  font-weight: normal;
+  src: local("Inconsolata"),
+  url(./assets/fonts/Inconsolata-Regular.ttf) format("ttf");
+}
+
+@font-face {
+  font-family: "Inconsolata";
+  font-weight: bold;
+  src: local("Inconsolata-Bold"),
+  url(./assets/fonts/Inconsolata-Bold.ttf) format("ttf");
+}
+
+@font-face {
+  font-family: "Monaco";
+  font-weight: normal;
+  src: local("Monaco"),
+  url(./assets/fonts/Monaco.woff) format("woff");
+}
+
+@media only screen and (max-width: 900px) {
+  h2 {
+    font-size: 18px;
+    font-weight: bold;
+  }
+
+  h1 {
+    font-size: 24px;
+  }
+}

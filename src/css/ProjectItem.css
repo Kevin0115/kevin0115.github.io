@@ -1,76 +1,126 @@
 .project-item {
+  position: relative;
   display: flex;
-  flex-direction: column;
-  height: 60vh;
-  width: 20vw;
-  margin: 20px;
-  align-items: center;
-  border-radius: 14px;
-  background-color: rgba(255, 255, 255, 0.6);
-  box-shadow: 2px 2px 16px 0px #333;
+  text-align: left;
+  flex-direction: row;
+  justify-content: flex-start;
+  margin-bottom: 60px;
+  border-radius: 4px;
+  box-shadow: 0 50px 100px rgba(50, 50, 93, 0.05),
+      0 15px 35px rgba(50, 50, 93, 0.1), 0 5px 15px rgba(0, 0, 0, 0.1);
   overflow: hidden;
 }
 
-.project-item img {
-  display: block;
-  height: 90px;
-  width: auto;
-  margin: 10px;
+.project-background {
+  position: absolute;
+  top: -1px;
+  left: -1px;
+  height: 110%;
+  width: 80%;
+  background: url('../assets/images/proj-background.svg');
+  background-size: cover;
 }
 
-.project-desc,
-.project-tools {
-  color: black;
-  margin: 0 16px 12px;
-  font-size: 15px;
+.project-image {
+  width: 24%;
+  position: absolute;
+  top: 48px;
+  right: 24px;
 }
 
-.project-tools {
+.project-content {
+  z-index: 2;
+  min-height: 260px;
+  width: 56%;
+  padding: 48px;
+  line-height: 1.6;
+}
+
+.position {
+  margin: 0;
+}
+
+.date {
+  font-style: italic;
+}
+
+.description {
+  margin-bottom: 8px;
+}
+
+.tools {
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
-  justify-content: center;
-  align-items: center;
+  margin-top: 32px;
 }
 
-.project-tools p {
-  font-size: 14px;
-  font-weight: 450;
-  padding: 6px;
-  margin: 4px;
-  color: #fff;
-  background-color: rgb(116, 116, 116);
-  border-radius: 8px;
+.tool {
+  margin: 0 8px 4px 0;
+  padding: 4px 8px;
+  font-family: 'Monaco';
+  background-color: #355ebe;
+  border-radius: 4px;
+  color: #ffffff;
 }
 
-@media only screen and (max-width: 750px) {
-  .project-item {
-    flex-direction: row;
-    height: 30vh;
-    width: 90vw;
-  }
+.tool:hover {
+  background-color: #7c98da;
+}
 
-  .project-item img {
-    height: 12vw;
-  }
+#asap-sports {
+  background-color: #257964;
+}
 
-  .project-desc {
+#issue-explorer {
+  background-color: #E91E63;
+}
+
+#incognitoelf {
+  background-color: #ffe75e;
+}
+
+#pds {
+  background-color: #515dce;
+}
+
+#asap-sports:hover {
+  background-color: #257964a4;
+}
+
+#issue-explorer:hover {
+  background-color: rgba(233, 30, 98, 0.63);
+}
+
+#incognitoelf:hover {
+  background-color: #ffe75e9a;
+}
+
+#pds:hover {
+  background-color: #515dcea1;
+}
+
+@media only screen and (max-width: 900px) {
+  #asap-sports,
+  #issue-explorer,
+  #incognitoelf,
+  #pds {
+    background-color: #FFFFFF;
+  }
+  .project-image, .project-background {
     display: none;
   }
 
-  .project-tools {
-    margin: 0;
+  .project-name {
+    font-size: 1.5em;
   }
-}
 
-@media only screen and (max-width: 500px) {
-  .project-item p {
-    font-size: 10px;
+  .position {
+    font-size: 1em;
   }
-}
 
-@media only screen and (min-height: 1000px) {
-  .project-item {
-    height: 40vh;
+  .project-content {
+    width: 100%;
+    padding: 32px;
   }
 }
