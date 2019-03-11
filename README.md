@@ -1,3 +1,4 @@
 # Kevin's Personal Website
+## Handmade with ReactJS and CSS3
 
-## Visit at http://kevnchoi.com
+## Visit at https://kevnchoi.com
