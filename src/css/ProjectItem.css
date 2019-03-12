@@ -107,6 +107,14 @@
   #pds {
     background-color: #FFFFFF;
   }
+
+  #asap-sports:hover,
+  #issue-explorer:hover,
+  #incognitoelf:hover,
+  #pds:hover {
+    background-color: #FFFFFF;
+  }
+
   .project-image, .project-background {
     display: none;
   }
