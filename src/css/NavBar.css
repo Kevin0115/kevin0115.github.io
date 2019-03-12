@@ -11,13 +11,13 @@
 
 .nav-item a {
   text-decoration: none;
-  font-size: 16px;
-  color: #5A5D7A;
+  font-size: 18px;
+  color: #000000;
   font-family: 'Monaco';
 }
 
 .nav-item a:hover {
-  color: #A2AAEA;
+  color: rgb(141, 141, 141);
 }
 
 @media only screen and (max-width: 900px) {
