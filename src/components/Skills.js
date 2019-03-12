@@ -19,7 +19,7 @@ const skillsContents = [
   },
   {
     layer: 'Tools',
-    skill: ['Git', 'Mercurial', 'JUnit', 'Jenkins', 'Nuclide/Atom', 'GDB'],
+    skill: ['Git', 'Mercurial', 'Jest/JUnit', 'Jenkins', 'Nuclide/Atom', 'GDB'],
     logo: Tools
   },
   // {

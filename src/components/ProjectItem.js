@@ -12,7 +12,6 @@ class ProjectItem extends Component {
           <div className="tools">
             {this.renderTools()}
           </div>
-
         </div>
         <a
           rel="noopener"

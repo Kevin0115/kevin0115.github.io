@@ -10,7 +10,7 @@ class ExperienceItem extends Component {
         <img className="experience-image" src={this.props.imageUrl} />
         <div className="experience-background" />
         <div className="experience-content">
-          <h2 className="company">{this.props.company}</h2>
+          <img className="image-small" src={this.props.smallUrl} />
           <h3 className="position">{this.props.position}</h3>
           <p className="date">{this.props.date}</p>
           {this.renderDescription()}

@@ -30,6 +30,7 @@
 
 .experience-content {
   z-index: 2;
+  min-height: 240px;
   width: 56%;
   padding: 48px;
   line-height: 1.6;
@@ -37,6 +38,11 @@
 
 .company {
   display: none;
+}
+
+.image-small {
+  display: none;
+  height: 48px;
 }
 
 .position {
@@ -56,9 +62,9 @@
     display: none;
   }
 
-  .company {
+  .image-small {
     display: block;
-    font-size: 1.5em;
+    margin-bottom: 16px;
   }
 
   .position {
