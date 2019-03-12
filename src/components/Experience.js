@@ -19,7 +19,7 @@ const experienceContents = [
     smallUrl: Amazon2,
     imageUrl: Amazon,
     description: [
-      "Coming soon; I will be spending the upcoming summer term as an SDE intern for Amazon."
+      "Coming soon; I will be spending the upcoming summer as an SDE intern."
     ]
   },
   {

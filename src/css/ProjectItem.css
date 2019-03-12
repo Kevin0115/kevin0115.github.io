@@ -59,13 +59,13 @@
   margin: 0 8px 4px 0;
   padding: 4px 8px;
   font-family: 'Monaco';
-  background-color: #355ebe;
+  background-color: #7d7d85;
   border-radius: 4px;
   color: #ffffff;
 }
 
 .tool:hover {
-  background-color: #7c98da;
+  background-color: #a5a5a5;
 }
 
 #asap-sports {

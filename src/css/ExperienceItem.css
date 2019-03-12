@@ -9,6 +9,13 @@
   box-shadow: 0 50px 100px rgba(50, 50, 93, 0.05),
       0 15px 35px rgba(50, 50, 93, 0.1), 0 5px 15px rgba(0, 0, 0, 0.1);
   overflow: hidden;
+  transition: transform 0.2s ease-in;
+}
+
+.experience-item:hover {
+  transition: transform 0.2s ease-in;
+  transform: scale(1.03);
+  -webkit-transform: scale(1.03);
 }
 
 .experience-background {
@@ -34,6 +41,12 @@
   width: 56%;
   padding: 48px;
   line-height: 1.6;
+}
+
+.experience-content ul {
+  padding: 0;
+  list-style-type: circle;
+  list-style-position: outside;
 }
 
 .company {
