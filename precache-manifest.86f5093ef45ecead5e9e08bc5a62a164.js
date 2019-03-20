@@ -1,15 +1,15 @@
 self.__precacheManifest = [
   {
-    "revision": "db93eacfa0e59cac93b0039630d44a2b",
-    "url": "/static/media/pds2.db93eacf.png"
+    "revision": "8af3d5d4d36810105f8f8c7d6628eb6f",
+    "url": "/static/media/incognitoelf.8af3d5d4.png"
   },
   {
-    "revision": "2619f6f3cc033a5747d7",
-    "url": "/static/css/main.bb8bd5a1.chunk.css"
+    "revision": "de6f957af6add6474b21",
+    "url": "/static/css/main.a47aa96b.chunk.css"
   },
   {
-    "revision": "d66e26e1a761082d6873",
-    "url": "/static/js/1.d66e26e1.chunk.js"
+    "revision": "9a178d131e8295fa55a7",
+    "url": "/static/js/1.9a178d13.chunk.js"
   },
   {
     "revision": "229c360febb4351a89df",
@@ -64,12 +64,16 @@ self.__precacheManifest = [
     "url": "/static/media/asap-sports.82b89950.png"
   },
   {
-    "revision": "8af3d5d4d36810105f8f8c7d6628eb6f",
-    "url": "/static/media/incognitoelf.8af3d5d4.png"
+    "revision": "5b13831a4dbe8e116c1f85c84ef6614a",
+    "url": "/static/media/smartender.5b13831a.png"
   },
   {
-    "revision": "2619f6f3cc033a5747d7",
-    "url": "/static/js/main.2619f6f3.chunk.js"
+    "revision": "de6f957af6add6474b21",
+    "url": "/static/js/main.de6f957a.chunk.js"
+  },
+  {
+    "revision": "db93eacfa0e59cac93b0039630d44a2b",
+    "url": "/static/media/pds2.db93eacf.png"
   },
   {
     "revision": "f2dd7ac26272404b85ee738f28340645",
@@ -96,12 +100,12 @@ self.__precacheManifest = [
     "url": "/static/media/montserrat-regular.b94d4bb6.woff2"
   },
   {
-    "revision": "45af372786e4fc6d6c54a88018cd6ce5",
-    "url": "/static/media/montserrat-bold.45af3727.woff2"
-  },
-  {
     "revision": "b760b19f49a84fd4b3ce2252969dec30",
     "url": "/static/media/montserrat-bold.b760b19f.woff"
+  },
+  {
+    "revision": "45af372786e4fc6d6c54a88018cd6ce5",
+    "url": "/static/media/montserrat-bold.45af3727.woff2"
   },
   {
     "revision": "a820606bee2646d5ec81751628904dd4",
@@ -116,12 +120,12 @@ self.__precacheManifest = [
     "url": "/static/media/Inconsolata-Regular.2c22fca2.ttf"
   },
   {
-    "revision": "9af662a0a6ac9204774f182f9f3a9651",
-    "url": "/static/media/Inconsolata-Bold.9af662a0.ttf"
-  },
-  {
     "revision": "5d92216467c24205442f0057f885b5da",
     "url": "/static/media/Monaco.5d922164.woff"
+  },
+  {
+    "revision": "9af662a0a6ac9204774f182f9f3a9651",
+    "url": "/static/media/Inconsolata-Bold.9af662a0.ttf"
   },
   {
     "revision": "5188bdc92adc2f462e4d2329bd490e09",
@@ -132,7 +136,7 @@ self.__precacheManifest = [
     "url": "/static/media/proj-background.de6f28cc.svg"
   },
   {
-    "revision": "7cc4d8bd7c84718c00fe5c9463f81cf8",
+    "revision": "6c99f23bac07d13bea74726ff23eef27",
     "url": "/index.html"
   }
 ];
