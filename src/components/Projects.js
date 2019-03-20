@@ -3,6 +3,7 @@ import '../css/Projects.css';
 
 import ProjectItem from './ProjectItem';
 import ASAPSports from '../assets/images/asap-sports.png';
+import Smartender from '../assets/images/smartender.png';
 import IncognitoElf from '../assets/images/incognitoelf.png';
 import PDS from '../assets/images/pds2.png';
 import IssueExplorer from '../assets/images/issue-explorer.png';
@@ -15,6 +16,14 @@ const projectContents = [
     imageUrl: ASAPSports,
     externalUrl: "https://github.com/aidoraide/ASAP-Sports",
     id: "asap-sports"
+  },
+  {
+    projectName: "Smartender",
+    description: "An automated bartending machine controlled by a mobile application aimed to reduce lines at clubs and bars. Currently a work in progress by a team of student engineers.",
+    tools: ["React Native", "Node.js", "Express.js", "MongoDB", "AWS"],
+    imageUrl: Smartender,
+    externalUrl: "https://github.com/Kevin0115/smartender",
+    id: "smartender"
   },
   {
     projectName: "IncognitoElf",

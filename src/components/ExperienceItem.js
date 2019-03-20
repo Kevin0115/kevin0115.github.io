@@ -7,10 +7,10 @@ class ExperienceItem extends Component {
   render() {
     return (
       <div className="experience-item">
-        <img className="experience-image" src={this.props.imageUrl} />
+        <img className="experience-image" src={this.props.imageUrl} alt="" />
         <div className="experience-background" />
         <div className="experience-content">
-          <img className="image-small" src={this.props.smallUrl} />
+          <img className="image-small" src={this.props.smallUrl} alt="" />
           <h3 className="position">{this.props.position}</h3>
           <p className="date">{this.props.date}</p>
           <ul>{this.renderDescription()}</ul>

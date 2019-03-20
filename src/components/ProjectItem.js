@@ -14,12 +14,12 @@ class ProjectItem extends Component {
           </div>
         </div>
         <a
-          rel="noopener"
+          rel="noopener noreferrer"
           className="project-link"
           href={this.props.externalUrl}
           target="_blank"
         >
-         <img className="project-image" src={this.props.imageUrl} />
+         <img className="project-image" src={this.props.imageUrl} alt="" />
         </a>
       </div>
     );

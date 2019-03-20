@@ -6,7 +6,7 @@ class SkillItem extends Component {
     return (
       <div className="skill-item">
         <div className="layer-container">
-          <img className="logo" src={this.props.logo} />
+          <img className="logo" src={this.props.logo} alt="" />
           <h3 className="layer">{this.props.layer}</h3>
         </div>
         <div className="each-skill">

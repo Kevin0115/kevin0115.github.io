@@ -37,7 +37,7 @@ class Links extends Component {
       return (
         <div className="link-item" title={item.itemName}>
         <a
-          rel="noopener"
+          rel="noopener noreferrer"
           className="link-item-title"
           href={item.externalUrl}
           target="_blank"
