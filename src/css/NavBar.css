@@ -7,6 +7,7 @@
 
 .nav-item {
   margin-right: 32px;
+  transition: transform 0.1s;
 }
 
 .nav-item:last-child {
@@ -18,10 +19,16 @@
   font-size: 16px;
   color: #000000;
   font-family: 'Monaco';
+  transition: opacity 0.1s;
 }
 
 .nav-item a:hover {
-  color: rgb(141, 141, 141);
+  opacity: 0.5;
+}
+
+.nav-item:hover {
+  transform: scale(1.03);
+  -webkit-transform: scale(1.03);
 }
 
 @media only screen and (max-width: 900px) {
