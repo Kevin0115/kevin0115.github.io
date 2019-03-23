@@ -74,6 +74,7 @@
   box-shadow: 0 3px 7px rgba(50, 50, 93, 0.1),
               0 3px 6px rgba(0, 0, 0, 0.2);
   transition: transform 0.1s;
+  transition: opacity 0.1s;
 }
 
 .url-link:hover {

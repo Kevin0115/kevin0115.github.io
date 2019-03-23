@@ -14,6 +14,16 @@
   border-radius: 999px;
 }
 
+.link-item:hover {
+  transition: transform 0.1s;
+  transition: opacity 0.1s;
+}
+
+.link-item:hover {
+  opacity: 0.5;
+  transform: scale(1.03);
+  -webkit-transform: scale(1.03);
+}
 /* .link-item:hover {
   background-color: #555;
   box-shadow: 0 0 10px 8px #555;
