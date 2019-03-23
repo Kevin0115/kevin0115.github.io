@@ -14,7 +14,8 @@ const projectContents = [
     description: "Mobile application for finding sports games nearby. Yields the ability to join (or host) a game in the sport and capacity of your choosing.",
     tools: ["React Native", "Python", "Django", "PostgreSQL"],
     imageUrl: ASAPSports,
-    externalUrl: "https://github.com/aidoraide/ASAP-Sports",
+    githubUrl: "https://github.com/aidoraide/ASAP-Sports",
+    demoUrl: "https://expo.io/@kevin0115/ASAP-Sports",
     id: "asap-sports"
   },
   {
@@ -22,7 +23,8 @@ const projectContents = [
     description: "An automated bartending machine controlled by a mobile application aimed to reduce lines at clubs and bars. Currently a work in progress by a team of student engineers.",
     tools: ["React Native", "Node.js", "Express.js", "MongoDB", "AWS", "Raspberry Pi"],
     imageUrl: Smartender,
-    externalUrl: "https://github.com/Kevin0115/smartender",
+    githubUrl: "https://github.com/Kevin0115/smartender",
+    demoUrl: "https://expo.io/@kevin0115/smartender",
     id: "smartender"
   },
   {
@@ -30,7 +32,8 @@ const projectContents = [
     description: "Grab a group of friends and organize a quick gift exchange with the help of IncognitoElf. Create or join a group, using a unique group code.",
     tools: ["React Native", "Node.js", "Express.js", "MongoDB"],
     imageUrl: IncognitoElf,
-    externalUrl: "https://github.com/Kevin0115/IncognitoElf",
+    githubUrl: "https://github.com/Kevin0115/IncognitoElf",
+    demoUrl: "https://expo.io/@kevin0115/IncognitoElf",
     id: "incognitoelf"
   },
   {
@@ -38,7 +41,8 @@ const projectContents = [
     description: "Browse/explore issues from any public GitHub repo. Simply enter a repo URL. Allows for filtering based on issue status (open, closed, etc.).",
     tools: ["ReactJS", "CSS3", "GitHub API"],
     imageUrl: IssueExplorer,
-    externalUrl: "https://kevnchoi.com/github-issue-explorer/",
+    githubUrl: "https://github.com/Kevin0115/github-issue-explorer/",
+    demoUrl: "https://kevnchoi.com/github-issue-explorer/",
     id: "issue-explorer"
   },
   {
@@ -46,7 +50,8 @@ const projectContents = [
     description: "A medical patient clinic decongestion system. Uses a DE1-SoC as a check-in kiosk, which then provides the patient the option to go to another nearby clinic with short wait times.",
     tools: ["ReactJS", "CSS3", "Node.js", "Express.js", "Twilio API"],
     imageUrl: PDS,
-    externalUrl: "https://kevnchoi.com/PDS",
+    githubUrl: "https://github.com/Kevin0115/PDS",
+    demoUrl: "https://kevnchoi.com/PDS/",
     id: "pds"
   }
 ];

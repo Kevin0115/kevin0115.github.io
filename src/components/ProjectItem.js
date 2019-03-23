@@ -1,6 +1,9 @@
 import React, { Component } from 'react';
 import '../css/ProjectItem.css';
 
+import GitHub from '../assets/images/github.svg';
+import Link from '../assets/images/link.svg';
+
 class ProjectItem extends Component {
   render() {
     return (
@@ -12,15 +15,9 @@ class ProjectItem extends Component {
           <div className="tools">
             {this.renderTools()}
           </div>
+          {this.renderLinks()}
         </div>
-        <a
-          rel="noopener noreferrer"
-          className="project-link"
-          href={this.props.externalUrl}
-          target="_blank"
-        >
-         <img className="project-image" src={this.props.imageUrl} alt="" />
-        </a>
+        <img className="project-image" src={this.props.imageUrl} alt="" />
       </div>
     );
   }
@@ -32,6 +29,41 @@ class ProjectItem extends Component {
       )
     });
   }
+
+  renderLinks() {
+    return (
+      <div className="links">
+        {
+          this.props.githubUrl ?
+          <a
+            rel="noopener noreferrer"
+            className="url-link"
+            href={this.props.githubUrl}
+            target="_blank"
+          >
+            <img src={GitHub} alt=""/>
+            <p>Source</p>
+          </a>
+          :
+          null
+        }
+        {
+          this.props.demoUrl ?
+          <a
+            rel="noopener noreferrer"
+            className="url-link"
+            href={this.props.demoUrl}
+            target="_blank"
+          >
+            <img src={Link} alt=""/>
+            <p>Demo</p>
+          </a>
+          :
+          null
+        }
+      </div>
+    )
+  }
 }
 
 ProjectItem.defaultProps = {
@@ -39,7 +71,7 @@ ProjectItem.defaultProps = {
   description: "Mobile application for finding sports games nearby. Yields the ability to join (or host) a game in the sport and capacity of your choosing!",
   tools: ["React Native", "Python", "Django", "PostgreSQL"],
   imageUrl: null,
-  externalUrl: "https://github.com/aidoraide/ASAP-Sports",
+  githubUrl: "https://github.com/aidoraide/ASAP-Sports",
 }
 
 export default ProjectItem;

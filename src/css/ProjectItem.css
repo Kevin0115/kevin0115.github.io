@@ -56,6 +56,47 @@
   margin-top: 32px;
 }
 
+.links {
+  display: flex;
+  flex-direction: row;
+  margin-top: 32px;
+}
+
+.url-link {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  margin-right: 14px;
+  padding: 8px 12px;
+  border-radius: 4px;
+  background-color: #f1f1f1;
+  box-shadow: 0 3px 7px rgba(50, 50, 93, 0.1),
+              0 3px 6px rgba(0, 0, 0, 0.2);
+  transition: transform 0.1s;
+}
+
+.url-link:hover {
+  opacity: 0.5;
+  transform: scale(1.03);
+  -webkit-transform: scale(1.03);
+}
+
+.url-link img {
+  margin-right: 8px;
+  height: 20px;
+}
+
+.url-link:link {
+  text-decoration: none;
+}
+
+.url-link p {
+  margin: 0;
+  font-family: 'Monaco';
+  color: #000000;
+}
+
 .tool {
   margin: 0 8px 4px 0;
   padding: 4px 8px;
@@ -63,10 +104,11 @@
   background-color: #7d7d85;
   border-radius: 4px;
   color: #ffffff;
+  transition: opacity 0.1s;
 }
 
 .tool:hover {
-  background-color: #a5a5a5;
+  opacity: 0.5;
 }
 
 #asap-sports {
