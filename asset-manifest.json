@@ -1,12 +1,12 @@
 {
-  "main.css": "/static/css/main.b14edb4a.chunk.css",
-  "main.js": "/static/js/main.1d2dd52c.chunk.js",
-  "main.js.map": "/static/js/main.1d2dd52c.chunk.js.map",
+  "main.css": "/static/css/main.949bdd01.chunk.css",
+  "main.js": "/static/js/main.a3b7213e.chunk.js",
+  "main.js.map": "/static/js/main.a3b7213e.chunk.js.map",
   "static/js/1.48255f72.chunk.js": "/static/js/1.48255f72.chunk.js",
   "static/js/1.48255f72.chunk.js.map": "/static/js/1.48255f72.chunk.js.map",
   "runtime~main.js": "/static/js/runtime~main.229c360f.js",
   "runtime~main.js.map": "/static/js/runtime~main.229c360f.js.map",
-  "static/media/index.css": "/static/media/Monaco.5d922164.woff",
+  "static/media/index.css": "/static/media/montserrat-regular.b94d4bb6.woff2",
   "static/media/github.svg": "/static/media/github.76d344f0.svg",
   "static/media/resume.svg": "/static/media/resume.d758315c.svg",
   "static/media/linkedin.svg": "/static/media/linkedin.812cbce7.svg",
@@ -29,8 +29,8 @@
   "static/media/facebook.png": "/static/media/facebook.b8660bc8.png",
   "static/media/ExperienceItem.css": "/static/media/vectorpaint.5188bdc9.svg",
   "static/media/ProjectItem.css": "/static/media/proj-background.de6f28cc.svg",
-  "static/css/main.b14edb4a.chunk.css.map": "/static/css/main.b14edb4a.chunk.css.map",
+  "static/css/main.949bdd01.chunk.css.map": "/static/css/main.949bdd01.chunk.css.map",
   "index.html": "/index.html",
-  "precache-manifest.1d7cb1a549a65eaeca645174d2d166e5.js": "/precache-manifest.1d7cb1a549a65eaeca645174d2d166e5.js",
+  "precache-manifest.1d75830d75ab6c147c006d4bf0c01f15.js": "/precache-manifest.1d75830d75ab6c147c006d4bf0c01f15.js",
   "service-worker.js": "/service-worker.js"
 }

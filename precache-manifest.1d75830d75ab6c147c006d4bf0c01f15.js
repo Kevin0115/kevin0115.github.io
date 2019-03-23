@@ -4,8 +4,8 @@ self.__precacheManifest = [
     "url": "/static/media/incognitoelf.8af3d5d4.png"
   },
   {
-    "revision": "1d2dd52c154907b7e9c7",
-    "url": "/static/css/main.b14edb4a.chunk.css"
+    "revision": "a3b7213e8cd565090c01",
+    "url": "/static/css/main.949bdd01.chunk.css"
   },
   {
     "revision": "48255f72f2e8b588e6c1",
@@ -72,8 +72,8 @@ self.__precacheManifest = [
     "url": "/static/media/smartender.5b13831a.png"
   },
   {
-    "revision": "1d2dd52c154907b7e9c7",
-    "url": "/static/js/main.1d2dd52c.chunk.js"
+    "revision": "a3b7213e8cd565090c01",
+    "url": "/static/js/main.a3b7213e.chunk.js"
   },
   {
     "revision": "db93eacfa0e59cac93b0039630d44a2b",
@@ -100,16 +100,12 @@ self.__precacheManifest = [
     "url": "/static/media/montserrat-regular.3fb4d290.woff"
   },
   {
-    "revision": "b94d4bb6c9c96d53b7a724f6d7397b49",
-    "url": "/static/media/montserrat-regular.b94d4bb6.woff2"
+    "revision": "45af372786e4fc6d6c54a88018cd6ce5",
+    "url": "/static/media/montserrat-bold.45af3727.woff2"
   },
   {
     "revision": "b760b19f49a84fd4b3ce2252969dec30",
     "url": "/static/media/montserrat-bold.b760b19f.woff"
-  },
-  {
-    "revision": "45af372786e4fc6d6c54a88018cd6ce5",
-    "url": "/static/media/montserrat-bold.45af3727.woff2"
   },
   {
     "revision": "d0d8af75aedd27ba147c6b6ad7d2eba7",
@@ -120,6 +116,10 @@ self.__precacheManifest = [
     "url": "/static/media/montserrat-light.a820606b.woff"
   },
   {
+    "revision": "5d92216467c24205442f0057f885b5da",
+    "url": "/static/media/Monaco.5d922164.woff"
+  },
+  {
     "revision": "2c22fca2e6627676b0cd60ec1be3beb2",
     "url": "/static/media/Inconsolata-Regular.2c22fca2.ttf"
   },
@@ -128,8 +128,8 @@ self.__precacheManifest = [
     "url": "/static/media/Inconsolata-Bold.9af662a0.ttf"
   },
   {
-    "revision": "5d92216467c24205442f0057f885b5da",
-    "url": "/static/media/Monaco.5d922164.woff"
+    "revision": "b94d4bb6c9c96d53b7a724f6d7397b49",
+    "url": "/static/media/montserrat-regular.b94d4bb6.woff2"
   },
   {
     "revision": "5188bdc92adc2f462e4d2329bd490e09",
@@ -140,7 +140,7 @@ self.__precacheManifest = [
     "url": "/static/media/proj-background.de6f28cc.svg"
   },
   {
-    "revision": "7d363e2e382b803725c6c71a85af64f3",
+    "revision": "07c79ac3e4dff6c35bd9001771fdb74b",
     "url": "/index.html"
   }
 ];
