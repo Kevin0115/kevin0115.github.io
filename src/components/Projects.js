@@ -42,7 +42,7 @@ const projectContents = [
     tools: ["ReactJS", "CSS3", "GitHub API"],
     imageUrl: IssueExplorer,
     githubUrl: "https://github.com/Kevin0115/github-issue-explorer/",
-    demoUrl: "https://kevnchoi.com/github-issue-explorer/",
+    demoUrl: "https://kevinchoi.dev/github-issue-explorer/",
     id: "issue-explorer"
   },
   // {
@@ -51,7 +51,7 @@ const projectContents = [
   //   tools: ["ReactJS", "CSS3", "Node.js", "Express.js", "Twilio API"],
   //   imageUrl: PDS,
   //   githubUrl: "https://github.com/Kevin0115/PDS",
-  //   demoUrl: "https://kevnchoi.com/PDS/",
+  //   demoUrl: "https://kevinchoi.dev/PDS/",
   //   id: "pds"
   // }
 ];
