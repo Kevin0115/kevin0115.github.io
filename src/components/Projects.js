@@ -45,15 +45,15 @@ const projectContents = [
     demoUrl: "https://kevnchoi.com/github-issue-explorer/",
     id: "issue-explorer"
   },
-  {
-    projectName: "Patient Distribution System",
-    description: "A medical patient clinic decongestion system. Uses a DE1-SoC as a check-in kiosk, which then provides the patient the option to go to another nearby clinic with short wait times.",
-    tools: ["ReactJS", "CSS3", "Node.js", "Express.js", "Twilio API"],
-    imageUrl: PDS,
-    githubUrl: "https://github.com/Kevin0115/PDS",
-    demoUrl: "https://kevnchoi.com/PDS/",
-    id: "pds"
-  }
+  // {
+  //   projectName: "Patient Distribution System",
+  //   description: "A medical patient clinic decongestion system. Uses a DE1-SoC as a check-in kiosk, which then provides the patient the option to go to another nearby clinic with short wait times.",
+  //   tools: ["ReactJS", "CSS3", "Node.js", "Express.js", "Twilio API"],
+  //   imageUrl: PDS,
+  //   githubUrl: "https://github.com/Kevin0115/PDS",
+  //   demoUrl: "https://kevnchoi.com/PDS/",
+  //   id: "pds"
+  // }
 ];
 
 class Projects extends Component {
