@@ -1,12 +1,12 @@
 {
   "main.css": "/static/css/main.7202f7fa.chunk.css",
-  "main.js": "/static/js/main.eb201ae4.chunk.js",
-  "main.js.map": "/static/js/main.eb201ae4.chunk.js.map",
+  "main.js": "/static/js/main.461d2ca3.chunk.js",
+  "main.js.map": "/static/js/main.461d2ca3.chunk.js.map",
   "static/js/1.d9f79458.chunk.js": "/static/js/1.d9f79458.chunk.js",
   "static/js/1.d9f79458.chunk.js.map": "/static/js/1.d9f79458.chunk.js.map",
   "runtime~main.js": "/static/js/runtime~main.229c360f.js",
   "runtime~main.js.map": "/static/js/runtime~main.229c360f.js.map",
-  "static/media/index.css": "/static/media/Monaco.5d922164.woff",
+  "static/media/index.css": "/static/media/Inconsolata-Bold.9af662a0.ttf",
   "static/media/github.svg": "/static/media/github.76d344f0.svg",
   "static/media/resume.svg": "/static/media/resume.d758315c.svg",
   "static/media/linkedin.svg": "/static/media/linkedin.812cbce7.svg",
@@ -31,6 +31,6 @@
   "static/media/pds2.png": "/static/media/pds2.db93eacf.png",
   "static/css/main.7202f7fa.chunk.css.map": "/static/css/main.7202f7fa.chunk.css.map",
   "index.html": "/index.html",
-  "precache-manifest.3de716999c254ff7310f5c5289275bf7.js": "/precache-manifest.3de716999c254ff7310f5c5289275bf7.js",
+  "precache-manifest.aa78a742fbbf7957c744995fe865ad8a.js": "/precache-manifest.aa78a742fbbf7957c744995fe865ad8a.js",
   "service-worker.js": "/service-worker.js"
 }
