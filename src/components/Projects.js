@@ -21,7 +21,7 @@ const projectContents = [
   {
     projectName: "Smartender",
     description: "An automated bartending machine controlled by a mobile application aimed to reduce lines at clubs and bars. Currently a work in progress by a team of student engineers.",
-    tools: ["React Native", "Node.js", "Express.js", "MongoDB", "AWS", "Raspberry Pi"],
+    tools: ["React Native", "Node.js", "Express.js", "Python", "MongoDB", "Blockchain", "Cloud", "Raspberry Pi"],
     imageUrl: Smartender,
     githubUrl: "https://github.com/Kevin0115/smartender",
     demoUrl: "https://expo.io/@kevin0115/smartender",
