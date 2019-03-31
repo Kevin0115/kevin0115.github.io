@@ -20,7 +20,7 @@ const projectContents = [
   },
   {
     projectName: "Smartender",
-    description: "An automated bartending machine controlled by a mobile application aimed to reduce lines at clubs and bars. Currently a work in progress by a team of student engineers.",
+    description: "An automated bartending machine controlled by a mobile application aimed to reduce lines at clubs and bars. Utilizes our own BarCoin cryptocurrency as a secure payment system.",
     tools: ["React Native", "Node.js", "Express.js", "Python", "MongoDB", "Blockchain", "Cloud", "Raspberry Pi"],
     imageUrl: Smartender,
     githubUrl: "https://github.com/Kevin0115/smartender",
