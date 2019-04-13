@@ -1,12 +1,11 @@
 .app-container {
   display: flex;
   flex-direction: column;
-  padding: 0 80px;
-  background-color: #F6F9FC;
+  margin: 0 80px;
 }
 
 @media only screen and (max-width: 900px) {
   .app-container {
-    padding: 0 24px;
+    margin: 0 24px;
   }
 }

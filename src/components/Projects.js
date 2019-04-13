@@ -25,6 +25,7 @@ const projectContents = [
     imageUrl: Smartender,
     githubUrl: "https://github.com/Kevin0115/smartender",
     demoUrl: "https://expo.io/@kevin0115/smartender",
+    youtubeUrl: "https://www.youtube.com/watch?v=o8KIC-9Z7Os&t",
     id: "smartender"
   },
   {

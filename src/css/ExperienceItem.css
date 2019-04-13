@@ -1,4 +1,5 @@
 .experience-item {
+  max-width: 1100px;
   position: relative;
   display: flex;
   flex-direction: row;
@@ -9,13 +10,13 @@
   box-shadow: 0 50px 100px rgba(50, 50, 93, 0.05),
       0 15px 35px rgba(50, 50, 93, 0.1), 0 5px 15px rgba(0, 0, 0, 0.1);
   overflow: hidden;
-  transition: transform 0.2s ease-in;
+  /* transition: transform 0.2s ease-in; */
 }
 
-.experience-item:hover {
+/* .experience-item:hover {
   transform: scale(1.01);
   -webkit-transform: scale(1.01);
-}
+} */
 
 .experience-background {
   position: absolute;
@@ -30,9 +31,16 @@
 .experience-image {
   width: 40%;
   position: absolute;
-  top: 0;
+  top: 50%;
   left: 0;
+  transform: translate(0, -50%);
+  transition: all 0.07s ease-in;
 }
+
+.experience-image:hover {
+  opacity: 0.85;
+}
+
 
 .experience-content {
   z-index: 2;
@@ -69,9 +77,13 @@
   margin-bottom: 8px;
 }
 
-@media only screen and (max-width: 900px) {
+@media only screen and (max-width: 750px) {
   .experience-image, .experience-background {
     display: none;
+  }
+
+  .experience-content {
+    min-height: 0;
   }
 
   .image-small {

@@ -1,7 +1,6 @@
 .skill-item {
   display: flex;
   flex-direction: column;
-  margin: 0 160px 0 0;
 }
 
 .skill-item:last-child {

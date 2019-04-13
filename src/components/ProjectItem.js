@@ -3,6 +3,7 @@ import '../css/ProjectItem.css';
 
 import GitHub from '../assets/images/github.svg';
 import Link from '../assets/images/link.svg';
+import YouTube from '../assets/images/youtube.svg';
 
 class ProjectItem extends Component {
   render() {
@@ -57,6 +58,20 @@ class ProjectItem extends Component {
           >
             <img src={Link} alt=""/>
             <p>Demo</p>
+          </a>
+          :
+          null
+        }
+        {
+          this.props.youtubeUrl ?
+          <a
+            rel="noopener noreferrer"
+            className="url-link"
+            href={this.props.youtubeUrl}
+            target="_blank"
+          >
+            <img src={YouTube} alt=""/>
+            <p>Watch</p>
           </a>
           :
           null
