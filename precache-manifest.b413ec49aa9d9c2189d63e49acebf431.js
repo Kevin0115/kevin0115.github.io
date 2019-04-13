@@ -1,15 +1,15 @@
 self.__precacheManifest = [
   {
-    "revision": "8af3d5d4d36810105f8f8c7d6628eb6f",
-    "url": "/static/media/incognitoelf.8af3d5d4.png"
+    "revision": "5b13831a4dbe8e116c1f85c84ef6614a",
+    "url": "/static/media/smartender.5b13831a.png"
   },
   {
-    "revision": "9ea84604950ced7d6149",
-    "url": "/static/css/main.7202f7fa.chunk.css"
+    "revision": "96f56c3ebfdacee231ef",
+    "url": "/static/css/main.efcfc025.chunk.css"
   },
   {
-    "revision": "d9f794584955f8bfaa56",
-    "url": "/static/js/1.d9f79458.chunk.js"
+    "revision": "48255f72f2e8b588e6c1",
+    "url": "/static/js/1.48255f72.chunk.js"
   },
   {
     "revision": "229c360febb4351a89df",
@@ -20,8 +20,8 @@ self.__precacheManifest = [
     "url": "/static/media/github.76d344f0.svg"
   },
   {
-    "revision": "b8660bc86494330c2c37f49625a7af5a",
-    "url": "/static/media/facebook.b8660bc8.png"
+    "revision": "738d662ce5d9c7e36d02ce32a92b919e",
+    "url": "/static/media/facebook.738d662c.png"
   },
   {
     "revision": "d758315c19a6ad6cc9b3374f8bd8d447",
@@ -36,16 +36,16 @@ self.__precacheManifest = [
     "url": "/static/media/portrait.aa6497d0.JPG"
   },
   {
-    "revision": "56b4e11a239647db0026a672222bfd8f",
-    "url": "/static/media/sap.56b4e11a.png"
+    "revision": "aa63b52324b32235b8710185742ed44a",
+    "url": "/static/media/sap.aa63b523.png"
   },
   {
-    "revision": "1790f0820eb8567c4bafdbca32144a10",
-    "url": "/static/media/ubc.1790f082.png"
+    "revision": "6dd743e21ad8e36c6310bd5a61c55782",
+    "url": "/static/media/ubc.6dd743e2.png"
   },
   {
-    "revision": "85d0deeb4247acfc1f0118c348156b09",
-    "url": "/static/media/amazon.85d0deeb.png"
+    "revision": "99ba18fb4d25f4b040cdb1a4af2f4891",
+    "url": "/static/media/amazon.99ba18fb.png"
   },
   {
     "revision": "c6a3358ffa75a328deab5c88d7e1b609",
@@ -64,16 +64,20 @@ self.__precacheManifest = [
     "url": "/static/media/link.9dd4203f.svg"
   },
   {
+    "revision": "c626a5a4e4d1894f2e12b527497cbfc3",
+    "url": "/static/media/youtube.c626a5a4.svg"
+  },
+  {
     "revision": "82b89950ed60dd8f3f494ece647b3e23",
     "url": "/static/media/asap-sports.82b89950.png"
   },
   {
-    "revision": "5b13831a4dbe8e116c1f85c84ef6614a",
-    "url": "/static/media/smartender.5b13831a.png"
+    "revision": "96f56c3ebfdacee231ef",
+    "url": "/static/js/main.96f56c3e.chunk.js"
   },
   {
-    "revision": "9ea84604950ced7d6149",
-    "url": "/static/js/main.9ea84604.chunk.js"
+    "revision": "8af3d5d4d36810105f8f8c7d6628eb6f",
+    "url": "/static/media/incognitoelf.8af3d5d4.png"
   },
   {
     "revision": "f2dd7ac26272404b85ee738f28340645",
@@ -100,16 +104,16 @@ self.__precacheManifest = [
     "url": "/static/media/montserrat-regular.b94d4bb6.woff2"
   },
   {
-    "revision": "b760b19f49a84fd4b3ce2252969dec30",
-    "url": "/static/media/montserrat-bold.b760b19f.woff"
-  },
-  {
     "revision": "45af372786e4fc6d6c54a88018cd6ce5",
     "url": "/static/media/montserrat-bold.45af3727.woff2"
   },
   {
     "revision": "a820606bee2646d5ec81751628904dd4",
     "url": "/static/media/montserrat-light.a820606b.woff"
+  },
+  {
+    "revision": "b760b19f49a84fd4b3ce2252969dec30",
+    "url": "/static/media/montserrat-bold.b760b19f.woff"
   },
   {
     "revision": "d0d8af75aedd27ba147c6b6ad7d2eba7",
@@ -120,12 +124,12 @@ self.__precacheManifest = [
     "url": "/static/media/Inconsolata-Regular.2c22fca2.ttf"
   },
   {
-    "revision": "5d92216467c24205442f0057f885b5da",
-    "url": "/static/media/Monaco.5d922164.woff"
-  },
-  {
     "revision": "9af662a0a6ac9204774f182f9f3a9651",
     "url": "/static/media/Inconsolata-Bold.9af662a0.ttf"
+  },
+  {
+    "revision": "5d92216467c24205442f0057f885b5da",
+    "url": "/static/media/Monaco.5d922164.woff"
   },
   {
     "revision": "5188bdc92adc2f462e4d2329bd490e09",
@@ -140,7 +144,7 @@ self.__precacheManifest = [
     "url": "/static/media/pds2.db93eacf.png"
   },
   {
-    "revision": "b7b9dfc21b2654f5f5e4015af5e518e3",
+    "revision": "31e87e753ba503c7c3a38e2e87e2a56d",
     "url": "/index.html"
   }
 ];
