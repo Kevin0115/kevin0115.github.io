@@ -1,8 +1,6 @@
 import React, { Component } from 'react';
 import '../css/ExperienceItem.css';
 
-import Facebook from '../assets/images/facebook.png';
-
 class ExperienceItem extends Component {
   render() {
     return (
@@ -26,18 +24,6 @@ class ExperienceItem extends Component {
       )
     });
   }
-}
-
-ExperienceItem.defaultProps = {
-  company: 'Company Name',
-  position: 'Position Name',
-  date: 'September 2018 - December 2018',
-  imageUrl: Facebook,
-  description: [
-    'Provided weekly individual guidance and instruction regarding course material during office hours',
-    'Facilitated weekly lab sessions by assisting students with C++ programming and theory assignments',
-    'Evaluated student examinations and theory assignments by developing own grading rubric utilizing Gradescope'
-  ],
 }
 
 export default ExperienceItem;

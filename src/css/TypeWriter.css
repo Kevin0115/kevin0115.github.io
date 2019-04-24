@@ -7,6 +7,7 @@
   font-weight: 700;
   /* font-family: monospace; */
   font-size: 48px;
+  pointer-events: none;
 }
 
 .typewriter span {

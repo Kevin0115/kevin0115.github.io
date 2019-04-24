@@ -5,7 +5,7 @@ import ProjectItem from './ProjectItem';
 import ASAPSports from '../assets/images/asap-sports.png';
 import Smartender from '../assets/images/smartender.png';
 import IncognitoElf from '../assets/images/incognitoelf.png';
-import PDS from '../assets/images/pds2.png';
+import PicMe from '../assets/images/picme.png';
 import IssueExplorer from '../assets/images/issue-explorer.png';
 
 const projectContents = [
@@ -21,13 +21,23 @@ const projectContents = [
   {
     projectName: "Smartender",
     description: "An automated bartending machine controlled by a mobile application aimed to reduce lines at clubs and bars. Utilizes our own BarCoin cryptocurrency as a secure payment system.",
-    tools: ["React Native", "Node.js", "Express.js", "Python", "MongoDB", "Blockchain", "Cloud", "Raspberry Pi"],
+    tools: ["React Native", "Node.js", "Express.js", "MongoDB", "Python", "Blockchain", "Cloud", "Raspberry Pi"],
     imageUrl: Smartender,
     githubUrl: "https://github.com/Kevin0115/smartender",
     demoUrl: "https://expo.io/@kevin0115/smartender",
     youtubeUrl: "https://www.youtube.com/watch?v=o8KIC-9Z7Os&t",
     id: "smartender"
   },
+  // Release this once PicMe has a foundation
+  // {
+  //   projectName: "PicMe",
+  //   description: "[Work in Progress] Make booking a photoshoot as easy as ordering a pizza; find a local photographer that suits you and book a shoot. Integrated with Google Calendar, and featuring in-app messaging.",
+  //   tools: ["React Native", "Python", "Django", "MongoDB", "Socket.io", "Node.js", "Express.js"],
+  //   imageUrl: PicMe,
+  //   githubUrl: null,
+  //   demoUrl: null,
+  //   id: "picme"
+  // },
   {
     projectName: "IncognitoElf",
     description: "Grab a group of friends and organize a quick gift exchange with the help of IncognitoElf. Create or join a group, using a unique group code.",
@@ -46,15 +56,6 @@ const projectContents = [
     demoUrl: "https://kevinchoi.dev/github-issue-explorer/",
     id: "issue-explorer"
   },
-  // {
-  //   projectName: "Patient Distribution System",
-  //   description: "A medical patient clinic decongestion system. Uses a DE1-SoC as a check-in kiosk, which then provides the patient the option to go to another nearby clinic with short wait times.",
-  //   tools: ["ReactJS", "CSS3", "Node.js", "Express.js", "Twilio API"],
-  //   imageUrl: PDS,
-  //   githubUrl: "https://github.com/Kevin0115/PDS",
-  //   demoUrl: "https://kevinchoi.dev/PDS/",
-  //   id: "pds"
-  // }
 ];
 
 class Projects extends Component {

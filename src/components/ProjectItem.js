@@ -81,12 +81,4 @@ class ProjectItem extends Component {
   }
 }
 
-ProjectItem.defaultProps = {
-  projectName: "Project Name",
-  description: "Mobile application for finding sports games nearby. Yields the ability to join (or host) a game in the sport and capacity of your choosing!",
-  tools: ["React Native", "Python", "Django", "PostgreSQL"],
-  imageUrl: null,
-  githubUrl: "https://github.com/aidoraide/ASAP-Sports",
-}
-
 export default ProjectItem;

@@ -19,13 +19,9 @@ const skillsContents = [
   },
   {
     layer: 'Tools',
-    skill: ['Git', 'Mercurial', 'Jest/JUnit', 'Jenkins', 'Nuclide/Atom', 'GDB'],
+    skill: ['Git/Mercurial', 'Jest/JUnit', 'Nuclide/Atom', 'AWS', 'Jenkins', 'GDB'],
     logo: Tools
-  },
-  // {
-  //   layer: "Low-level",
-  //   skill: ["C", "ARM/MIPS/x86", "Verilog", "ModelSim", "Quartus"],
-  // }
+  }
 ];
 
 
