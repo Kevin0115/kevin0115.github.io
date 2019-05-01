@@ -14,6 +14,7 @@ import Amazon2 from '../assets/images/amazon2.png';
 const experienceContents = [
   {
     company: "Amazon",
+    team: "Product Classification ML",
     position: "Software Development Engineer Intern",
     date: "May 2019 - Aug 2019",
     smallUrl: Amazon2,
@@ -36,6 +37,7 @@ const experienceContents = [
   },
   {
     company: "Facebook",
+    team: "Ads Manager and Metrics",
     position: "Software Engineer Intern",
     date: "May 2018 - Aug 2018",
     smallUrl: Facebook2,
@@ -48,6 +50,7 @@ const experienceContents = [
   },
   {
     company: "SAP",
+    team: "Quality Tools and Infrastructure",
     position: "Software Developer Intern",
     date: "May 2017 - Dec 2017",
     smallUrl: SAP2,

@@ -69,8 +69,14 @@
   margin: 0;
 }
 
+.team {
+  margin: 0;
+  font-style: italic;
+}
+
 .date {
   font-style: italic;
+  font-size: 0.9em;
 }
 
 .description {
@@ -93,6 +99,10 @@
 
   .position {
     font-size: 1em;
+  }
+
+  .team {
+    font-size: 0.9em;
   }
 
   .experience-content {

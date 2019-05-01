@@ -4,6 +4,7 @@ import '../css/Links.css';
 import Resume from '../assets/images/resume.svg';
 import GitHub from '../assets/images/github.svg';
 import LinkedIn from '../assets/images/linkedin.svg';
+import PDF from '../assets/Resume.pdf';
 
 const linkItems = [
   {
@@ -18,7 +19,7 @@ const linkItems = [
   },
   {
     itemName: "Resume",
-    externalUrl: "https://github.com/Kevin0115/resume/blob/master/Kevin-Choi-Resume.pdf",
+    externalUrl: PDF,
     imageUrl: Resume,
   }
 ]
