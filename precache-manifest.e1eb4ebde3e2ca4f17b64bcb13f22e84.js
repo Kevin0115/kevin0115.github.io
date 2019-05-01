@@ -4,12 +4,12 @@ self.__precacheManifest = [
     "url": "/static/media/smartender.5b13831a.png"
   },
   {
-    "revision": "991c85498193464e8e6a",
-    "url": "/static/css/main.e03d741d.chunk.css"
+    "revision": "0664a3f4cd76cc44cbe9",
+    "url": "/static/css/main.dca5d032.chunk.css"
   },
   {
-    "revision": "83403adf2ca43bbafdf3",
-    "url": "/static/js/1.83403adf.chunk.js"
+    "revision": "8850668071c0c56783d6",
+    "url": "/static/js/1.88506680.chunk.js"
   },
   {
     "revision": "229c360febb4351a89df",
@@ -26,6 +26,10 @@ self.__precacheManifest = [
   {
     "revision": "812cbce76b50769a83493bc4d13596de",
     "url": "/static/media/linkedin.812cbce7.svg"
+  },
+  {
+    "revision": "fc0e22855bfaa8ecca31e53cc95f00c3",
+    "url": "/static/media/Resume.fc0e2285.pdf"
   },
   {
     "revision": "aa6497d03488b85ffbd41a9c6ec0b0de",
@@ -72,8 +76,8 @@ self.__precacheManifest = [
     "url": "/static/media/asap-sports.82b89950.png"
   },
   {
-    "revision": "991c85498193464e8e6a",
-    "url": "/static/js/main.991c8549.chunk.js"
+    "revision": "0664a3f4cd76cc44cbe9",
+    "url": "/static/js/main.0664a3f4.chunk.js"
   },
   {
     "revision": "8af3d5d4d36810105f8f8c7d6628eb6f",
@@ -96,12 +100,16 @@ self.__precacheManifest = [
     "url": "/static/media/tools.ea72b58c.svg"
   },
   {
+    "revision": "b94d4bb6c9c96d53b7a724f6d7397b49",
+    "url": "/static/media/montserrat-regular.b94d4bb6.woff2"
+  },
+  {
     "revision": "3fb4d2902124120fbdc713a267b36403",
     "url": "/static/media/montserrat-regular.3fb4d290.woff"
   },
   {
-    "revision": "b94d4bb6c9c96d53b7a724f6d7397b49",
-    "url": "/static/media/montserrat-regular.b94d4bb6.woff2"
+    "revision": "45af372786e4fc6d6c54a88018cd6ce5",
+    "url": "/static/media/montserrat-bold.45af3727.woff2"
   },
   {
     "revision": "b760b19f49a84fd4b3ce2252969dec30",
@@ -110,10 +118,6 @@ self.__precacheManifest = [
   {
     "revision": "a820606bee2646d5ec81751628904dd4",
     "url": "/static/media/montserrat-light.a820606b.woff"
-  },
-  {
-    "revision": "45af372786e4fc6d6c54a88018cd6ce5",
-    "url": "/static/media/montserrat-bold.45af3727.woff2"
   },
   {
     "revision": "d0d8af75aedd27ba147c6b6ad7d2eba7",
@@ -144,7 +148,7 @@ self.__precacheManifest = [
     "url": "/static/media/picme.0f6e9278.png"
   },
   {
-    "revision": "f0b9d325d93ae5340a9b380e26303578",
+    "revision": "df78b4f3a274a2c59f69156764853ce3",
     "url": "/index.html"
   }
 ];
