@@ -4,7 +4,7 @@ self.__precacheManifest = [
     "url": "/static/media/smartender.5b13831a.png"
   },
   {
-    "revision": "0664a3f4cd76cc44cbe9",
+    "revision": "194edc7e0629c9c08710",
     "url": "/static/css/main.dca5d032.chunk.css"
   },
   {
@@ -76,8 +76,8 @@ self.__precacheManifest = [
     "url": "/static/media/asap-sports.82b89950.png"
   },
   {
-    "revision": "0664a3f4cd76cc44cbe9",
-    "url": "/static/js/main.0664a3f4.chunk.js"
+    "revision": "194edc7e0629c9c08710",
+    "url": "/static/js/main.194edc7e.chunk.js"
   },
   {
     "revision": "8af3d5d4d36810105f8f8c7d6628eb6f",
@@ -100,24 +100,32 @@ self.__precacheManifest = [
     "url": "/static/media/tools.ea72b58c.svg"
   },
   {
-    "revision": "b94d4bb6c9c96d53b7a724f6d7397b49",
-    "url": "/static/media/montserrat-regular.b94d4bb6.woff2"
-  },
-  {
     "revision": "3fb4d2902124120fbdc713a267b36403",
     "url": "/static/media/montserrat-regular.3fb4d290.woff"
-  },
-  {
-    "revision": "45af372786e4fc6d6c54a88018cd6ce5",
-    "url": "/static/media/montserrat-bold.45af3727.woff2"
   },
   {
     "revision": "b760b19f49a84fd4b3ce2252969dec30",
     "url": "/static/media/montserrat-bold.b760b19f.woff"
   },
   {
+    "revision": "b94d4bb6c9c96d53b7a724f6d7397b49",
+    "url": "/static/media/montserrat-regular.b94d4bb6.woff2"
+  },
+  {
+    "revision": "45af372786e4fc6d6c54a88018cd6ce5",
+    "url": "/static/media/montserrat-bold.45af3727.woff2"
+  },
+  {
     "revision": "a820606bee2646d5ec81751628904dd4",
     "url": "/static/media/montserrat-light.a820606b.woff"
+  },
+  {
+    "revision": "5d92216467c24205442f0057f885b5da",
+    "url": "/static/media/Monaco.5d922164.woff"
+  },
+  {
+    "revision": "9af662a0a6ac9204774f182f9f3a9651",
+    "url": "/static/media/Inconsolata-Bold.9af662a0.ttf"
   },
   {
     "revision": "d0d8af75aedd27ba147c6b6ad7d2eba7",
@@ -126,14 +134,6 @@ self.__precacheManifest = [
   {
     "revision": "2c22fca2e6627676b0cd60ec1be3beb2",
     "url": "/static/media/Inconsolata-Regular.2c22fca2.ttf"
-  },
-  {
-    "revision": "9af662a0a6ac9204774f182f9f3a9651",
-    "url": "/static/media/Inconsolata-Bold.9af662a0.ttf"
-  },
-  {
-    "revision": "5d92216467c24205442f0057f885b5da",
-    "url": "/static/media/Monaco.5d922164.woff"
   },
   {
     "revision": "5188bdc92adc2f462e4d2329bd490e09",
@@ -148,7 +148,7 @@ self.__precacheManifest = [
     "url": "/static/media/picme.0f6e9278.png"
   },
   {
-    "revision": "df78b4f3a274a2c59f69156764853ce3",
+    "revision": "ce4991e9f9595837f1e06fdbb4e9638f",
     "url": "/index.html"
   }
 ];

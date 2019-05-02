@@ -1,12 +1,12 @@
 {
   "main.css": "/static/css/main.dca5d032.chunk.css",
-  "main.js": "/static/js/main.0664a3f4.chunk.js",
-  "main.js.map": "/static/js/main.0664a3f4.chunk.js.map",
+  "main.js": "/static/js/main.194edc7e.chunk.js",
+  "main.js.map": "/static/js/main.194edc7e.chunk.js.map",
   "static/js/1.88506680.chunk.js": "/static/js/1.88506680.chunk.js",
   "static/js/1.88506680.chunk.js.map": "/static/js/1.88506680.chunk.js.map",
   "runtime~main.js": "/static/js/runtime~main.229c360f.js",
   "runtime~main.js.map": "/static/js/runtime~main.229c360f.js.map",
-  "static/media/index.css": "/static/media/Monaco.5d922164.woff",
+  "static/media/index.css": "/static/media/Inconsolata-Regular.2c22fca2.ttf",
   "static/media/github.svg": "/static/media/github.76d344f0.svg",
   "static/media/linkedin.svg": "/static/media/linkedin.812cbce7.svg",
   "static/media/Resume.pdf": "/static/media/Resume.fc0e2285.pdf",
@@ -33,6 +33,6 @@
   "static/media/picme.png": "/static/media/picme.0f6e9278.png",
   "static/css/main.dca5d032.chunk.css.map": "/static/css/main.dca5d032.chunk.css.map",
   "index.html": "/index.html",
-  "precache-manifest.e1eb4ebde3e2ca4f17b64bcb13f22e84.js": "/precache-manifest.e1eb4ebde3e2ca4f17b64bcb13f22e84.js",
+  "precache-manifest.c5668d3854d1b95b35a0a99b29d032b2.js": "/precache-manifest.c5668d3854d1b95b35a0a99b29d032b2.js",
   "service-worker.js": "/service-worker.js"
 }
