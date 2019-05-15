@@ -14,17 +14,18 @@ import Amazon2 from '../assets/images/amazon2.png';
 const experienceContents = [
   {
     company: "Amazon",
-    team: "Product Classification ML",
+    team: "Tax Engine Machine Learning",
     position: "Software Development Engineer Intern",
-    date: "May 2019 - Aug 2019",
+    date: "May 2019 - July 2019",
     smallUrl: Amazon2,
     imageUrl: Amazon,
     description: [
-      "Coming soon; I will be spending the upcoming summer as an SDE intern."
+      "I am currently spending this summer as an SDE intern."
     ]
   },
   {
     company: "UBC",
+    team: "Algorithms and Data Structures",
     position: "Computer Science Teaching Assistant",
     date: "Sept 2018 - Dec 2018",
     smallUrl: UBC2,
