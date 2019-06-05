@@ -16,6 +16,10 @@ self.__precacheManifest = [
     "url": "/static/js/runtime~main.229c360f.js"
   },
   {
+    "revision": "aa6497d03488b85ffbd41a9c6ec0b0de",
+    "url": "/static/media/portrait.aa6497d0.JPG"
+  },
+  {
     "revision": "b53ff55e09a092f9f0cbbf74af01b715",
     "url": "/static/media/github.b53ff55e.svg"
   },
@@ -30,10 +34,6 @@ self.__precacheManifest = [
   {
     "revision": "fc0e22855bfaa8ecca31e53cc95f00c3",
     "url": "/static/media/Resume.fc0e2285.pdf"
-  },
-  {
-    "revision": "aa6497d03488b85ffbd41a9c6ec0b0de",
-    "url": "/static/media/portrait.aa6497d0.JPG"
   },
   {
     "revision": "738d662ce5d9c7e36d02ce32a92b919e",
@@ -116,12 +116,12 @@ self.__precacheManifest = [
     "url": "/static/media/montserrat-bold.45af3727.woff2"
   },
   {
-    "revision": "a820606bee2646d5ec81751628904dd4",
-    "url": "/static/media/montserrat-light.a820606b.woff"
-  },
-  {
     "revision": "d0d8af75aedd27ba147c6b6ad7d2eba7",
     "url": "/static/media/montserrat-light.d0d8af75.woff2"
+  },
+  {
+    "revision": "a820606bee2646d5ec81751628904dd4",
+    "url": "/static/media/montserrat-light.a820606b.woff"
   },
   {
     "revision": "2c22fca2e6627676b0cd60ec1be3beb2",
@@ -148,7 +148,7 @@ self.__precacheManifest = [
     "url": "/static/media/picme.0f6e9278.png"
   },
   {
-    "revision": "14163de78e2669f2fa37545aa1fb9b5c",
+    "revision": "e0dd66c3d5e11bb7a00c6268faf335cb",
     "url": "/index.html"
   }
 ];
