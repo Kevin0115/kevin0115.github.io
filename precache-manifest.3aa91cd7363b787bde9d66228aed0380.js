@@ -1,11 +1,11 @@
 self.__precacheManifest = [
   {
-    "revision": "7bc4c4f4fa2d453bdf43",
+    "revision": "64a29c36a6f5e69bcafd",
     "url": "/static/css/main.25ff228d.chunk.css"
   },
   {
-    "revision": "7bc4c4f4fa2d453bdf43",
-    "url": "/static/js/main.7bc4c4f4.chunk.js"
+    "revision": "64a29c36a6f5e69bcafd",
+    "url": "/static/js/main.64a29c36.chunk.js"
   },
   {
     "revision": "96af0c5f610c0abf0786",
@@ -16,8 +16,8 @@ self.__precacheManifest = [
     "url": "/static/js/runtime~main.229c360f.js"
   },
   {
-    "revision": "aa6497d03488b85ffbd41a9c6ec0b0de",
-    "url": "/static/media/portrait.aa6497d0.JPG"
+    "revision": "c1715b38e7e0f5d4b3c7c2958dba04ee",
+    "url": "/static/media/snapshot.c1715b38.png"
   },
   {
     "revision": "b53ff55e09a092f9f0cbbf74af01b715",
@@ -34,6 +34,10 @@ self.__precacheManifest = [
   {
     "revision": "fc0e22855bfaa8ecca31e53cc95f00c3",
     "url": "/static/media/Resume.fc0e2285.pdf"
+  },
+  {
+    "revision": "c083f23a785317034b42d3a9e221f01f",
+    "url": "/static/media/portrait.c083f23a.png"
   },
   {
     "revision": "738d662ce5d9c7e36d02ce32a92b919e",
@@ -116,12 +120,12 @@ self.__precacheManifest = [
     "url": "/static/media/montserrat-bold.45af3727.woff2"
   },
   {
-    "revision": "d0d8af75aedd27ba147c6b6ad7d2eba7",
-    "url": "/static/media/montserrat-light.d0d8af75.woff2"
-  },
-  {
     "revision": "a820606bee2646d5ec81751628904dd4",
     "url": "/static/media/montserrat-light.a820606b.woff"
+  },
+  {
+    "revision": "d0d8af75aedd27ba147c6b6ad7d2eba7",
+    "url": "/static/media/montserrat-light.d0d8af75.woff2"
   },
   {
     "revision": "2c22fca2e6627676b0cd60ec1be3beb2",
@@ -148,7 +152,7 @@ self.__precacheManifest = [
     "url": "/static/media/picme.0f6e9278.png"
   },
   {
-    "revision": "e0dd66c3d5e11bb7a00c6268faf335cb",
+    "revision": "f4d30a63d4c6e729b2e7850692b44348",
     "url": "/index.html"
   }
 ];
