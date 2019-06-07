@@ -3,7 +3,7 @@ import '../css/Banner.css';
 
 import TypeWriter from './TypeWriter';
 import Links from './Links';
-import Portrait from '../assets/images/portrait.JPG';
+import Portrait from '../assets/images/portrait.png';
 
 class Banner extends Component {
   constructor(props) {

@@ -5,10 +5,20 @@ import ProjectItem from './ProjectItem';
 import ASAPSports from '../assets/images/asap-sports.png';
 import Smartender from '../assets/images/smartender.png';
 import IncognitoElf from '../assets/images/incognitoelf.png';
-import PicMe from '../assets/images/picme.png';
+// import PicMe from '../assets/images/picme.png';
 import IssueExplorer from '../assets/images/issue-explorer.png';
 
 const projectContents = [
+  {
+    projectName: "Smartender",
+    description: "An automated bartending machine controlled by a mobile application aimed to reduce lines at clubs and bars. Utilizes our own BarCoin cryptocurrency as a secure payment system.",
+    tools: ["React Native", "Node.js", "Express.js", "MongoDB", "Python", "Blockchain", "AWS", "Raspberry Pi"],
+    imageUrl: Smartender,
+    githubUrl: "https://github.com/Kevin0115/smartender",
+    demoUrl: "https://expo.io/@kevin0115/smartender",
+    youtubeUrl: "https://www.youtube.com/watch?v=o8KIC-9Z7Os&t",
+    id: "smartender"
+  },
   {
     projectName: "ASAP Sports",
     description: "Mobile application for finding sports games nearby. Yields the ability to join (or host) a game in the sport and capacity of your choosing.",
@@ -17,16 +27,6 @@ const projectContents = [
     githubUrl: "https://github.com/aidoraide/ASAP-Sports",
     demoUrl: "https://expo.io/@kevin0115/ASAP-Sports",
     id: "asap-sports"
-  },
-  {
-    projectName: "Smartender",
-    description: "An automated bartending machine controlled by a mobile application aimed to reduce lines at clubs and bars. Utilizes our own BarCoin cryptocurrency as a secure payment system.",
-    tools: ["React Native", "Node.js", "Express.js", "MongoDB", "Python", "Blockchain", "Cloud", "Raspberry Pi"],
-    imageUrl: Smartender,
-    githubUrl: "https://github.com/Kevin0115/smartender",
-    demoUrl: "https://expo.io/@kevin0115/smartender",
-    youtubeUrl: "https://www.youtube.com/watch?v=o8KIC-9Z7Os&t",
-    id: "smartender"
   },
   // Release this once PicMe has a foundation
   // {
