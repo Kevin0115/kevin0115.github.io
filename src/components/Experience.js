@@ -20,7 +20,9 @@ const experienceContents = [
     smallUrl: Amazon2,
     imageUrl: Amazon,
     description: [
-      "I am currently spending this summer as an SDE intern."
+      "Delivered an end-to-end machine learning-based service for determining the Product Tax Code for a given set of product ID numbers",
+      "Fully self-designed the UI, API, and backend workflow; final product refined through user acceptance testing as well as integration and unit tests",
+      "Utilized numerous AWS services such as Lambda, Step Functions, DynamoDB, Batch, API Gateway, Elastic Map Reduce, CloudFormation, and more"
     ]
   },
   {
