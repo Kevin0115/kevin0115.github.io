@@ -15,7 +15,6 @@ class Banner extends Component {
   }
 
   signalTextFinish() {
-    console.log('First Line Finished');
     this.setState({nextLine: true});
   }
 
