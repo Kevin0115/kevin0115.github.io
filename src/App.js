@@ -27,7 +27,7 @@ class App extends Component {
 
     const date = new Date();
 
-    fetch('http://ec2.kevnchoi.com/analytics', {
+    fetch('https://ec2.kevnchoi.com/analytics', {
       method: 'POST',
       headers: {
         'Content-Type': 'application/json'
