@@ -5,7 +5,12 @@ export const postSession = (eventType) => {
 
   const date = new Date();
 
-  const sessionId = sessionStorage.getItem(SESSION_ID);
+  const events = [
+    {
+      "eventType": eventType,
+      "timestamp": date.toLocaleString()
+    }
+  ];
 
   fetch(API_BASE, {
     method: POST,
@@ -13,9 +18,8 @@ export const postSession = (eventType) => {
     'Content-Type': 'application/json'
     },
     body: JSON.stringify({
-      "timestamp": date.toLocaleString(),
-      "sessionId": sessionId,
-      "eventType": eventType
+      "sessionId": sessionStorage.getItem(SESSION_ID),
+      "events": events
     })
   })
   .then(res => res.json())
