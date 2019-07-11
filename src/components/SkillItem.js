@@ -12,7 +12,7 @@ class SkillItem extends Component {
         <div className="each-skill">
           {this.props.skill.map((item) => {
             return (
-              <p>{item}</p>
+              <p key={item}>{item}</p>
             )
           })}
         </div>

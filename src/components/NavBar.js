@@ -1,6 +1,9 @@
 import React, { Component } from 'react';
 import '../css/NavBar.css';
 
+import { NAV_TO } from '../Const';
+import { postSession } from '../Utils';
+
 const nav = [
   {
     section: '#skills',
@@ -14,7 +17,6 @@ const nav = [
     section: '#projects',
     label: 'Projects',
   },
-  
   // {
   //   section: '#photography',
   //   label: 'Photography',
@@ -30,14 +32,18 @@ class NavBar extends Component {
     );
   }
 
+  handleNavTo(section) {
+    postSession(NAV_TO + '=' + section);
+  }
+
   renderNavBar() {
     return nav.map((item) => {
       return (
-        <div className="nav-item">
+        <div className="nav-item" key={item.section}>
           <a
             className="nav-link"
-            key={item.section}
             href={item.section}
+            onClick={() => this.handleNavTo(item.label)}
           >
             {item.label}
           </a>

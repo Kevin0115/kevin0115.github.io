@@ -1,6 +1,9 @@
 import React, { Component } from 'react';
 import '../css/Links.css';
 
+import { LINK_VISIT } from '../Const';
+import { postSession } from '../Utils';
+
 import Resume from '../assets/images/resume.svg';
 import GitHub from '../assets/images/github.svg';
 import LinkedIn from '../assets/images/linkedin.svg';
@@ -33,18 +36,23 @@ class Links extends Component {
     );
   }
 
+  handleLinkClick(itemName) {
+    postSession(LINK_VISIT + '=' + itemName);
+  }
+
   renderLinkItems() {
     return linkItems.map((item) => {
       return (
-        <div className="link-item" title={item.itemName}>
-        <a
-          rel="noopener noreferrer"
-          className="link-item-title"
-          href={item.externalUrl}
-          target="_blank"
-        >
-        <img src={item.imageUrl} alt={item.itemName}/>
-        </a>
+        <div className="link-item" key={item.itemName}>
+          <a
+            rel="noopener noreferrer"
+            className="link-item-title"
+            href={item.externalUrl}
+            target="_blank"
+            onClick={() => this.handleLinkClick(item.itemName)}
+          >
+            <img src={item.imageUrl} alt={item.itemName}/>
+          </a>
       </div>
       )
     });

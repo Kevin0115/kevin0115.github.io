@@ -1,6 +1,9 @@
 import React, { Component } from 'react';
 import '../css/ProjectItem.css';
 
+import { LINK_VISIT } from '../Const';
+import { postSession } from '../Utils';
+
 import GitHub from '../assets/images/github.svg';
 import Link from '../assets/images/link.svg';
 import YouTube from '../assets/images/youtube.svg';
@@ -23,10 +26,14 @@ class ProjectItem extends Component {
     );
   }
 
+  handleLinkClick(projectName) {
+    postSession(LINK_VISIT + '=' + projectName);
+  }
+
   renderTools() {
     return this.props.tools.map((item) => {
       return (
-        <p className="tool">{item}</p>
+        <p className="tool" key={item}>{item}</p>
       )
     });
   }
@@ -41,6 +48,7 @@ class ProjectItem extends Component {
             className="url-link"
             href={this.props.githubUrl}
             target="_blank"
+            onClick={() => this.handleLinkClick(this.props.projectName)}
           >
             <img src={GitHub} alt=""/>
             <p>Source</p>
@@ -55,6 +63,7 @@ class ProjectItem extends Component {
             className="url-link"
             href={this.props.demoUrl}
             target="_blank"
+            onClick={() => this.handleLinkClick(this.props.projectName)}
           >
             <img src={Link} alt=""/>
             <p>Demo</p>
@@ -69,6 +78,7 @@ class ProjectItem extends Component {
             className="url-link"
             href={this.props.youtubeUrl}
             target="_blank"
+            onClick={() => this.handleLinkClick(this.props.projectName)}
           >
             <img src={YouTube} alt=""/>
             <p>Watch</p>
