@@ -24,26 +24,6 @@ class App extends Component {
 
   componentDidMount() {
     document.addEventListener('keydown', this.handleEsc);
-
-    const date = new Date();
-
-    fetch('https://ec2.kevnchoi.com/analytics', {
-      method: 'POST',
-      headers: {
-        'Content-Type': 'application/json'
-      },
-      body: JSON.stringify({
-        "count": 1,
-        "timestamp": date.toLocaleString()
-      })
-    })
-    .then(res => res.json())
-    .then(json => {
-      console.log(json);
-    })
-    .catch(function(error) {
-      console.log('Error updating visit count');
-    });
   }
 
   render() {
