@@ -1,11 +1,11 @@
 self.__precacheManifest = [
   {
-    "revision": "c22d054f2281a3cbcb4d",
+    "revision": "a190dceea068831425c3",
     "url": "/static/css/main.f18fe946.chunk.css"
   },
   {
-    "revision": "c22d054f2281a3cbcb4d",
-    "url": "/static/js/main.c22d054f.chunk.js"
+    "revision": "a190dceea068831425c3",
+    "url": "/static/js/main.a190dcee.chunk.js"
   },
   {
     "revision": "96af0c5f610c0abf0786",
@@ -32,8 +32,8 @@ self.__precacheManifest = [
     "url": "/static/media/linkedin.f5409d56.svg"
   },
   {
-    "revision": "b7db9db547b353e48846d371ccca4e89",
-    "url": "/static/media/Resume.b7db9db5.pdf"
+    "revision": "3e70d1793c7fd690611a085038b8ba2d",
+    "url": "/static/media/Resume.3e70d179.pdf"
   },
   {
     "revision": "c083f23a785317034b42d3a9e221f01f",
@@ -104,6 +104,10 @@ self.__precacheManifest = [
     "url": "/static/media/tools.84d15329.svg"
   },
   {
+    "revision": "b760b19f49a84fd4b3ce2252969dec30",
+    "url": "/static/media/montserrat-bold.b760b19f.woff"
+  },
+  {
     "revision": "3fb4d2902124120fbdc713a267b36403",
     "url": "/static/media/montserrat-regular.3fb4d290.woff"
   },
@@ -112,32 +116,28 @@ self.__precacheManifest = [
     "url": "/static/media/montserrat-regular.b94d4bb6.woff2"
   },
   {
-    "revision": "b760b19f49a84fd4b3ce2252969dec30",
-    "url": "/static/media/montserrat-bold.b760b19f.woff"
-  },
-  {
     "revision": "45af372786e4fc6d6c54a88018cd6ce5",
     "url": "/static/media/montserrat-bold.45af3727.woff2"
-  },
-  {
-    "revision": "a820606bee2646d5ec81751628904dd4",
-    "url": "/static/media/montserrat-light.a820606b.woff"
   },
   {
     "revision": "d0d8af75aedd27ba147c6b6ad7d2eba7",
     "url": "/static/media/montserrat-light.d0d8af75.woff2"
   },
   {
+    "revision": "a820606bee2646d5ec81751628904dd4",
+    "url": "/static/media/montserrat-light.a820606b.woff"
+  },
+  {
     "revision": "2c22fca2e6627676b0cd60ec1be3beb2",
     "url": "/static/media/Inconsolata-Regular.2c22fca2.ttf"
   },
   {
-    "revision": "5d92216467c24205442f0057f885b5da",
-    "url": "/static/media/Monaco.5d922164.woff"
-  },
-  {
     "revision": "9af662a0a6ac9204774f182f9f3a9651",
     "url": "/static/media/Inconsolata-Bold.9af662a0.ttf"
+  },
+  {
+    "revision": "5d92216467c24205442f0057f885b5da",
+    "url": "/static/media/Monaco.5d922164.woff"
   },
   {
     "revision": "19f43d627c3d0916ec6634aa8a3782f0",
@@ -148,7 +148,7 @@ self.__precacheManifest = [
     "url": "/static/media/proj-background.96cf363c.svg"
   },
   {
-    "revision": "5f72617c25a42234e93e005bfb2836c9",
+    "revision": "ac3b42fdf77a69642e846b9eae92219a",
     "url": "/index.html"
   }
 ];
