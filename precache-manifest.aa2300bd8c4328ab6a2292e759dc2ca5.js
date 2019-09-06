@@ -1,15 +1,15 @@
 self.__precacheManifest = [
   {
-    "revision": "2c340d493419e87e1600",
-    "url": "/static/css/main.f18fe946.chunk.css"
+    "revision": "82b89950ed60dd8f3f494ece647b3e23",
+    "url": "/static/media/asap-sports.82b89950.png"
   },
   {
-    "revision": "2c340d493419e87e1600",
-    "url": "/static/js/main.2c340d49.chunk.js"
+    "revision": "353693ee684b1d9421fb",
+    "url": "/static/css/main.16b69eca.chunk.css"
   },
   {
-    "revision": "96af0c5f610c0abf0786",
-    "url": "/static/js/1.96af0c5f.chunk.js"
+    "revision": "8850668071c0c56783d6",
+    "url": "/static/js/1.88506680.chunk.js"
   },
   {
     "revision": "229c360febb4351a89df",
@@ -20,16 +20,16 @@ self.__precacheManifest = [
     "url": "/static/media/snapshot.c1715b38.png"
   },
   {
-    "revision": "b53ff55e09a092f9f0cbbf74af01b715",
-    "url": "/static/media/github.b53ff55e.svg"
+    "revision": "76d344f08412543c74ccd1fb2493d607",
+    "url": "/static/media/github.76d344f0.svg"
   },
   {
-    "revision": "1ee8f8c08ceee623c855a3b8e8327be3",
-    "url": "/static/media/resume.1ee8f8c0.svg"
+    "revision": "1ec0653fb833a8693f67aa111649edc9",
+    "url": "/static/media/resume.1ec0653f.svg"
   },
   {
-    "revision": "f5409d562d5d613246fafbd03fe6a857",
-    "url": "/static/media/linkedin.f5409d56.svg"
+    "revision": "812cbce76b50769a83493bc4d13596de",
+    "url": "/static/media/linkedin.812cbce7.svg"
   },
   {
     "revision": "3e70d1793c7fd690611a085038b8ba2d",
@@ -68,16 +68,16 @@ self.__precacheManifest = [
     "url": "/static/media/amazon2.6f755e9f.png"
   },
   {
-    "revision": "99b25bca92e307e796f216bcc1c4071d",
-    "url": "/static/media/link.99b25bca.svg"
+    "revision": "9dd4203f5af96a07b048f63b39e8fe35",
+    "url": "/static/media/link.9dd4203f.svg"
   },
   {
-    "revision": "d8baa1a4ee215f6dc55964993bd1dad4",
-    "url": "/static/media/youtube.d8baa1a4.svg"
+    "revision": "c626a5a4e4d1894f2e12b527497cbfc3",
+    "url": "/static/media/youtube.c626a5a4.svg"
   },
   {
-    "revision": "82b89950ed60dd8f3f494ece647b3e23",
-    "url": "/static/media/asap-sports.82b89950.png"
+    "revision": "353693ee684b1d9421fb",
+    "url": "/static/js/main.353693ee.chunk.js"
   },
   {
     "revision": "5b13831a4dbe8e116c1f85c84ef6614a",
@@ -96,16 +96,20 @@ self.__precacheManifest = [
     "url": "/static/media/web.e4c25de4.svg"
   },
   {
-    "revision": "33cec427b832658bd6691db99a05b303",
-    "url": "/static/media/database.33cec427.svg"
+    "revision": "86016af75ac677b21c2a1d2a4fad509e",
+    "url": "/static/media/database.86016af7.svg"
   },
   {
-    "revision": "84d15329736f2fb9aa095c86667faae9",
-    "url": "/static/media/tools.84d15329.svg"
+    "revision": "ea72b58c3b11ea3bfa95e193cd4fb8b1",
+    "url": "/static/media/tools.ea72b58c.svg"
   },
   {
-    "revision": "b760b19f49a84fd4b3ce2252969dec30",
-    "url": "/static/media/montserrat-bold.b760b19f.woff"
+    "revision": "b94d4bb6c9c96d53b7a724f6d7397b49",
+    "url": "/static/media/montserrat-regular.b94d4bb6.woff2"
+  },
+  {
+    "revision": "d0d8af75aedd27ba147c6b6ad7d2eba7",
+    "url": "/static/media/montserrat-light.d0d8af75.woff2"
   },
   {
     "revision": "3fb4d2902124120fbdc713a267b36403",
@@ -116,16 +120,16 @@ self.__precacheManifest = [
     "url": "/static/media/montserrat-bold.45af3727.woff2"
   },
   {
-    "revision": "b94d4bb6c9c96d53b7a724f6d7397b49",
-    "url": "/static/media/montserrat-regular.b94d4bb6.woff2"
+    "revision": "b760b19f49a84fd4b3ce2252969dec30",
+    "url": "/static/media/montserrat-bold.b760b19f.woff"
   },
   {
     "revision": "a820606bee2646d5ec81751628904dd4",
     "url": "/static/media/montserrat-light.a820606b.woff"
   },
   {
-    "revision": "d0d8af75aedd27ba147c6b6ad7d2eba7",
-    "url": "/static/media/montserrat-light.d0d8af75.woff2"
+    "revision": "5d92216467c24205442f0057f885b5da",
+    "url": "/static/media/Monaco.5d922164.woff"
   },
   {
     "revision": "2c22fca2e6627676b0cd60ec1be3beb2",
@@ -136,19 +140,15 @@ self.__precacheManifest = [
     "url": "/static/media/Inconsolata-Bold.9af662a0.ttf"
   },
   {
-    "revision": "5d92216467c24205442f0057f885b5da",
-    "url": "/static/media/Monaco.5d922164.woff"
+    "revision": "5188bdc92adc2f462e4d2329bd490e09",
+    "url": "/static/media/vectorpaint.5188bdc9.svg"
   },
   {
-    "revision": "19f43d627c3d0916ec6634aa8a3782f0",
-    "url": "/static/media/vectorpaint.19f43d62.svg"
+    "revision": "de6f28cc07cbc5d161c502bdfc939cc8",
+    "url": "/static/media/proj-background.de6f28cc.svg"
   },
   {
-    "revision": "96cf363c4b5432aa8e4e378f80a5c5d5",
-    "url": "/static/media/proj-background.96cf363c.svg"
-  },
-  {
-    "revision": "4ccec0fb0d5cd7b14ddaeeb560fd1191",
+    "revision": "0f0b154378fdfbabe1de2b24f6e87c39",
     "url": "/index.html"
   }
 ];
