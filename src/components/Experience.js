@@ -26,19 +26,6 @@ const experienceContents = [
     ]
   },
   {
-    company: "UBC",
-    team: "Algorithms and Data Structures",
-    position: "Computer Science Teaching Assistant",
-    date: "Sept 2018 - Dec 2018",
-    smallUrl: UBC2,
-    imageUrl: UBC,
-    description: [
-      "Provided weekly individual guidance and instruction regarding course material during office hours",
-      "Facilitated weekly lab sessions by assisting students with C++ programming and theory assignments",
-      "Evaluated students' examinations and theory assignments by developing own grading rubric utilizing Gradescope"
-    ],
-  },
-  {
     company: "Facebook",
     team: "Ads Manager and Metrics",
     position: "Software Engineer Intern",
@@ -62,6 +49,19 @@ const experienceContents = [
       "Automated the daily merge process of 30+ workstream branches by establishing key prerequisites prior to merge",
       "Developed several Jenkins jobs to manage the workflow of builds and background tasks",
       "Ensured stability of SAP BusinessObjects Cloud by writing Python scripts to automate modularized UI tests",
+    ],
+  },
+  {
+    company: "UBC",
+    team: "Algorithms and Data Structures",
+    position: "Computer Science Teaching Assistant",
+    date: "Sept 2018 - Present",
+    smallUrl: UBC2,
+    imageUrl: UBC,
+    description: [
+      "Provided weekly individual guidance and instruction regarding course material during office hours",
+      "Facilitated weekly lab sessions by assisting students with C++ programming and theory assignments",
+      "Evaluated students' examinations and theory assignments by developing own grading rubric utilizing Gradescope"
     ],
   }
 ]
