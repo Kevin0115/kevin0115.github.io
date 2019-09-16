@@ -9,17 +9,17 @@ import Tools from '../assets/images/tools.svg';
 const skillsContents = [
   {
     layer: 'Front-end',
-    skill: ['HTML5', 'CSS3', 'JavaScript', 'ReactJS', 'React Native', 'Bootstrap'],
+    skill: ['ReactJS', 'React Native', 'HTML5', 'CSS3', 'JavaScript', 'Bootstrap'],
     logo: FrontEnd
   },
   {
     layer: 'Back-end',
-    skill: ['Java', 'Node.js', 'Express.js', 'MongoDB', 'C/C++', 'PHP'],
+    skill: ['Java', 'Node.js', 'Express.js', 'C/C++', 'PHP', 'MongoDB',],
     logo: BackEnd
   },
   {
     layer: 'Tools',
-    skill: ['Git/Mercurial', 'Jest/JUnit', 'Nuclide/Atom', 'AWS', 'Jenkins', 'GDB'],
+    skill: ['AWS', 'Git/Mercurial', 'JUnit/Mockito', 'Linux', 'Docker', 'Jenkins'],
     logo: Tools
   }
 ];

@@ -8,8 +8,8 @@ class Bio extends Component {
     return (
       <div className="bio">
         <h1>About Me</h1>
-        <p>I'm a 4th year Computer Engineering student at UBC, with an interest in full-stack engineering.</p>
-        <p>When I'm not building apps, you can find me taking photos, playing piano/guitar, and playing Super Smash Bros.</p>
+        <p>I'm a Computer Engineering senior at UBC, with an interest in full-stack engineering.</p>
+        <p>Besides building apps, I enjoy snowboarding, photography, playing piano/guitar, and video games!</p>
         <p>Check out my work experience and projects below.</p>
       </div>
     );
