@@ -4,7 +4,7 @@ self.__precacheManifest = [
     "url": "/static/media/asap-sports.82b89950.png"
   },
   {
-    "revision": "353693ee684b1d9421fb",
+    "revision": "3d9cd46d21143668f5dd",
     "url": "/static/css/main.16b69eca.chunk.css"
   },
   {
@@ -76,8 +76,8 @@ self.__precacheManifest = [
     "url": "/static/media/youtube.c626a5a4.svg"
   },
   {
-    "revision": "353693ee684b1d9421fb",
-    "url": "/static/js/main.353693ee.chunk.js"
+    "revision": "3d9cd46d21143668f5dd",
+    "url": "/static/js/main.3d9cd46d.chunk.js"
   },
   {
     "revision": "5b13831a4dbe8e116c1f85c84ef6614a",
@@ -108,24 +108,28 @@ self.__precacheManifest = [
     "url": "/static/media/montserrat-regular.b94d4bb6.woff2"
   },
   {
-    "revision": "d0d8af75aedd27ba147c6b6ad7d2eba7",
-    "url": "/static/media/montserrat-light.d0d8af75.woff2"
-  },
-  {
     "revision": "3fb4d2902124120fbdc713a267b36403",
     "url": "/static/media/montserrat-regular.3fb4d290.woff"
-  },
-  {
-    "revision": "45af372786e4fc6d6c54a88018cd6ce5",
-    "url": "/static/media/montserrat-bold.45af3727.woff2"
   },
   {
     "revision": "b760b19f49a84fd4b3ce2252969dec30",
     "url": "/static/media/montserrat-bold.b760b19f.woff"
   },
   {
+    "revision": "45af372786e4fc6d6c54a88018cd6ce5",
+    "url": "/static/media/montserrat-bold.45af3727.woff2"
+  },
+  {
     "revision": "a820606bee2646d5ec81751628904dd4",
     "url": "/static/media/montserrat-light.a820606b.woff"
+  },
+  {
+    "revision": "d0d8af75aedd27ba147c6b6ad7d2eba7",
+    "url": "/static/media/montserrat-light.d0d8af75.woff2"
+  },
+  {
+    "revision": "9af662a0a6ac9204774f182f9f3a9651",
+    "url": "/static/media/Inconsolata-Bold.9af662a0.ttf"
   },
   {
     "revision": "5d92216467c24205442f0057f885b5da",
@@ -136,10 +140,6 @@ self.__precacheManifest = [
     "url": "/static/media/Inconsolata-Regular.2c22fca2.ttf"
   },
   {
-    "revision": "9af662a0a6ac9204774f182f9f3a9651",
-    "url": "/static/media/Inconsolata-Bold.9af662a0.ttf"
-  },
-  {
     "revision": "5188bdc92adc2f462e4d2329bd490e09",
     "url": "/static/media/vectorpaint.5188bdc9.svg"
   },
@@ -148,7 +148,7 @@ self.__precacheManifest = [
     "url": "/static/media/proj-background.de6f28cc.svg"
   },
   {
-    "revision": "0f0b154378fdfbabe1de2b24f6e87c39",
+    "revision": "c6ee88e89b03e80399d1e980efa69e36",
     "url": "/index.html"
   }
 ];
