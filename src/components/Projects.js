@@ -4,8 +4,8 @@ import '../css/Projects.css';
 import ProjectItem from './ProjectItem';
 import ASAPSports from '../assets/images/asap-sports.png';
 import Smartender from '../assets/images/smartender.png';
+import SuperRent from '../assets/images/superrent.png';
 import IncognitoElf from '../assets/images/incognitoelf.png';
-// import PicMe from '../assets/images/picme.png';
 import IssueExplorer from '../assets/images/issue-explorer.png';
 
 const projectContents = [
@@ -28,29 +28,28 @@ const projectContents = [
     demoUrl: "https://expo.io/@kevin0115/ASAP-Sports",
     id: "asap-sports"
   },
-  // Release this once PicMe has a foundation
-  // {
-  //   projectName: "PicMe",
-  //   description: "[Work in Progress] Make booking a photoshoot as easy as ordering a pizza; find a local photographer that suits you and book a shoot. Integrated with Google Calendar, and featuring in-app messaging.",
-  //   tools: ["React Native", "Python", "Django", "MongoDB", "Socket.io", "Node.js", "Express.js"],
-  //   imageUrl: PicMe,
-  //   githubUrl: null,
-  //   demoUrl: null,
-  //   id: "picme"
-  // },
   {
-    projectName: "IncognitoElf",
-    description: "Grab a group of friends and organize a quick gift exchange with the help of IncognitoElf. Create or join a group, using a unique group code.",
-    tools: ["React Native", "Node.js", "Express.js", "MongoDB"],
-    imageUrl: IncognitoElf,
-    githubUrl: "https://github.com/Kevin0115/IncognitoElf",
-    demoUrl: "https://expo.io/@kevin0115/IncognitoElf",
-    id: "incognitoelf"
+    projectName: "SuperRent",
+    description: "Browse a wide selection of vehicles, create/view/cancel a reservation, or book a rental. SuperRent is an all-inclusive platform for car rentals; includes both Client and Clerk roles.",
+    tools: ["React.js", "Node.js", "Express.js", "PostgreSQL"],
+    imageUrl: SuperRent,
+    githubUrl: "https://github.com/Kevin0115/SuperRent",
+    demoUrl: "https://www.kevinchoi.dev/SuperRent",
+    id: "superrent"
   },
+  // {
+  //   projectName: "IncognitoElf",
+  //   description: "Grab a group of friends and organize a quick gift exchange with the help of IncognitoElf. Create or join a group, using a unique group code.",
+  //   tools: ["React Native", "Node.js", "Express.js", "MongoDB"],
+  //   imageUrl: IncognitoElf,
+  //   githubUrl: "https://github.com/Kevin0115/IncognitoElf",
+  //   demoUrl: "https://expo.io/@kevin0115/IncognitoElf",
+  //   id: "incognitoelf"
+  // },
   {
     projectName: "GitHub Issue Explorer",
     description: "Browse/explore issues from any public GitHub repo. Simply enter a repo URL. Allows for filtering based on issue status (open, closed, etc.).",
-    tools: ["ReactJS", "CSS3", "GitHub API"],
+    tools: ["React.js", "CSS3", "GitHub API"],
     imageUrl: IssueExplorer,
     githubUrl: "https://github.com/Kevin0115/github-issue-explorer/",
     demoUrl: "https://kevinchoi.dev/github-issue-explorer/",
