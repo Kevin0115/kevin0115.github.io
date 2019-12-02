@@ -15,6 +15,7 @@ class ProjectItem extends Component {
         <div className="project-background" />
         <div className="project-content">
           <h2 className="project-name">{this.props.projectName}</h2>
+          <h4 className="project-subtitle">{this.props.subtitle}</h4>
           <p className="project-description">{this.props.description}</p>
           <div className="tools">
             {this.renderTools()}

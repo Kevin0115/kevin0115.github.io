@@ -52,6 +52,12 @@
   font-style: italic;
 }
 
+.project-subtitle {
+  font-family: 'Monaco';
+  font-style: italic;
+  color: #7d7d85;
+}
+
 .description {
   margin-bottom: 8px;
 }
@@ -75,7 +81,7 @@
   flex-direction: row;
   justify-content: center;
   align-items: center;
-  margin: 0 12px 14px;
+  margin: 0 18px 14px 0;
   padding: 8px 12px;
   border-radius: 4px;
   background-color: #ececec;
@@ -140,12 +146,16 @@
   background-color: #343434;
 }
 
+#helpinghand {
+  background-color: #78514e;
+}
+
 @media only screen and (max-width: 750px) {
   #asap-sports,
   #smartender,
   #issue-explorer,
-  #incognitoelf,
-  #pds {
+  #superrent,
+  #helpinghand {
     background-color: #FFFFFF;
   }
 
