@@ -136,12 +136,12 @@ self.__precacheManifest = [
     "url": "/static/media/Inconsolata-Regular.2c22fca2.ttf"
   },
   {
-    "revision": "9af662a0a6ac9204774f182f9f3a9651",
-    "url": "/static/media/Inconsolata-Bold.9af662a0.ttf"
-  },
-  {
     "revision": "5d92216467c24205442f0057f885b5da",
     "url": "/static/media/Monaco.5d922164.woff"
+  },
+  {
+    "revision": "9af662a0a6ac9204774f182f9f3a9651",
+    "url": "/static/media/Inconsolata-Bold.9af662a0.ttf"
   },
   {
     "revision": "5188bdc92adc2f462e4d2329bd490e09",
@@ -152,7 +152,7 @@ self.__precacheManifest = [
     "url": "/static/media/proj-background.de6f28cc.svg"
   },
   {
-    "revision": "f5ff2c4b238f7d3abe8fc657edb23b18",
+    "revision": "aa072ce7b124b085bc885914a182d653",
     "url": "/index.html"
   }
 ];
