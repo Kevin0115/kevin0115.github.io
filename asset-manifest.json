@@ -29,11 +29,11 @@
   "static/media/web.svg": "/static/media/web.e4c25de4.svg",
   "static/media/database.svg": "/static/media/database.86016af7.svg",
   "static/media/tools.svg": "/static/media/tools.ea72b58c.svg",
-  "static/media/index.css": "/static/media/Inconsolata-Bold.9af662a0.ttf",
+  "static/media/index.css": "/static/media/Monaco.5d922164.woff",
   "static/media/ExperienceItem.css": "/static/media/vectorpaint.5188bdc9.svg",
   "static/media/ProjectItem.css": "/static/media/proj-background.de6f28cc.svg",
   "static/css/main.c8453d7f.chunk.css.map": "/static/css/main.c8453d7f.chunk.css.map",
   "index.html": "/index.html",
-  "precache-manifest.79257ebc92438462de91a1551afe9676.js": "/precache-manifest.79257ebc92438462de91a1551afe9676.js",
+  "precache-manifest.9fac156887a8c342ea4b8295762e61c1.js": "/precache-manifest.9fac156887a8c342ea4b8295762e61c1.js",
   "service-worker.js": "/service-worker.js"
 }
