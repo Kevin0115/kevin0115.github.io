@@ -16,8 +16,8 @@ self.__precacheManifest = [
     "url": "/static/js/runtime~main.229c360f.js"
   },
   {
-    "revision": "773a636cfab4ab78d615e71279559fb2",
-    "url": "/static/media/snapshot.773a636c.png"
+    "revision": "b468ee3d5abae4579aaf0006bb665688",
+    "url": "/static/media/snapshot.b468ee3d.png"
   },
   {
     "revision": "76d344f08412543c74ccd1fb2493d607",
@@ -152,7 +152,7 @@ self.__precacheManifest = [
     "url": "/static/media/proj-background.de6f28cc.svg"
   },
   {
-    "revision": "aa072ce7b124b085bc885914a182d653",
+    "revision": "b3ecf91ec37d96d0bba6949559c66435",
     "url": "/index.html"
   }
 ];
