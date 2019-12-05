@@ -26,7 +26,7 @@ class App extends Component {
   }
 
   componentDidMount() {
-    const sessionId = Math.random().toString(36).replace(/[^a-z1-9]+/g, '').substr(0, 7);
+    const sessionId = Math.floor((Math.random() * 9999999) + 1);;
     sessionStorage.setItem(SESSION_ID, sessionId);
 
     document.addEventListener('keydown', this.handleEsc);

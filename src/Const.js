@@ -4,7 +4,7 @@ export const LINK_VISIT = 'linkVisit';
 export const NAV_TO = 'navTo';
 
 // API Endpoints
-export const API_BASE = 'https://ec2.kevnchoi.com/analytics';
+export const API_BASE = 'https://ec2.kevnchoi.com/metric';
 
 // API Method
 export const POST = 'POST';
