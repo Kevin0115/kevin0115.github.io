@@ -10,16 +10,6 @@ import IssueExplorer from '../assets/images/issue-explorer.png';
 
 const projectContents = [
   {
-    projectName: "Smartender",
-    description: "An automated bartending machine controlled by a mobile application aimed to reduce lines at clubs and bars. Utilizes our own BarCoin cryptocurrency as a secure payment system.",
-    tools: ["React Native", "Node.js", "Express.js", "MongoDB", "Python", "Blockchain", "AWS", "Raspberry Pi"],
-    imageUrl: Smartender,
-    githubUrl: "https://github.com/Kevin0115/smartender",
-    demoUrl: "https://expo.io/@kevin0115/smartender",
-    youtubeUrl: "https://www.youtube.com/watch?v=o8KIC-9Z7Os&t",
-    id: "smartender"
-  },
-  {
     projectName: "Helping Hand",
     subtitle: "1st Place @ UBC Local Hack Day 2019",
     description: "Lend a helping hand to those in need. Helping Hand is a full-stack web solution that enables seamless donations to homeless people without smartphones/laptops, through the use of physical QR codes.",
@@ -28,6 +18,16 @@ const projectContents = [
     githubUrl: "https://github.com/Kevin0115/HelpingHand",
     demoUrl: "https://devpost.com/software/helpinghand-a4swt1",
     id: "helpinghand"
+  },
+  {
+    projectName: "Smartender",
+    description: "An automated bartending machine controlled by a mobile application aimed to reduce lines at clubs and bars. Utilizes our own BarCoin cryptocurrency as a secure payment system.",
+    tools: ["React Native", "Node.js", "Express.js", "MongoDB", "Python", "Blockchain", "AWS", "Raspberry Pi"],
+    imageUrl: Smartender,
+    githubUrl: "https://github.com/Kevin0115/smartender",
+    demoUrl: "https://expo.io/@kevin0115/smartender",
+    youtubeUrl: "https://www.youtube.com/watch?v=o8KIC-9Z7Os&t",
+    id: "smartender"
   },
   {
     projectName: "ASAP Sports",
@@ -39,15 +39,6 @@ const projectContents = [
     id: "asap-sports"
   },
   {
-    projectName: "SuperRent",
-    description: "Browse a wide selection of vehicles, create/view/cancel a reservation, or book a rental. SuperRent is an all-inclusive platform for car rentals; includes both Client and Clerk roles.",
-    tools: ["React.js", "Node.js", "Express.js", "PostgreSQL"],
-    imageUrl: SuperRent,
-    githubUrl: "https://github.com/Kevin0115/SuperRent",
-    demoUrl: "https://www.kevinchoi.dev/SuperRent",
-    id: "superrent"
-  },
-  {
     projectName: "GitHub Issue Explorer",
     description: "Browse/explore issues from any public GitHub repo. Simply enter a repo URL. Allows for filtering based on issue status (open, closed, etc.).",
     tools: ["React.js", "CSS3", "GitHub API"],
@@ -55,6 +46,15 @@ const projectContents = [
     githubUrl: "https://github.com/Kevin0115/github-issue-explorer/",
     demoUrl: "https://kevinchoi.dev/github-issue-explorer/",
     id: "issue-explorer"
+  },
+  {
+    projectName: "SuperRent",
+    description: "Browse a wide selection of vehicles, create/view/cancel a reservation, or book a rental. SuperRent is an all-inclusive platform for car rentals; includes both Client and Clerk roles.",
+    tools: ["React.js", "Node.js", "Express.js", "PostgreSQL"],
+    imageUrl: SuperRent,
+    githubUrl: "https://github.com/Kevin0115/SuperRent",
+    demoUrl: "https://www.kevinchoi.dev/SuperRent",
+    id: "superrent"
   },
 ];
 
