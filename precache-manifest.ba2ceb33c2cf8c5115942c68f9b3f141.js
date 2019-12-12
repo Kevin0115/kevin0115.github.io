@@ -1,15 +1,15 @@
 self.__precacheManifest = [
   {
-    "revision": "d2b5ff91de2eb09de510",
-    "url": "/static/css/main.c8453d7f.chunk.css"
+    "revision": "700c6828715a77b58680",
+    "url": "/static/css/main.98e274f5.chunk.css"
   },
   {
-    "revision": "d2b5ff91de2eb09de510",
-    "url": "/static/js/main.d2b5ff91.chunk.js"
+    "revision": "700c6828715a77b58680",
+    "url": "/static/js/main.700c6828.chunk.js"
   },
   {
-    "revision": "f2f1404ee40c2c0e269a",
-    "url": "/static/js/1.f2f1404e.chunk.js"
+    "revision": "620c760c7db4dc6b3fc7",
+    "url": "/static/js/1.620c760c.chunk.js"
   },
   {
     "revision": "229c360febb4351a89df",
@@ -96,6 +96,10 @@ self.__precacheManifest = [
     "url": "/static/media/issue-explorer.f2dd7ac2.png"
   },
   {
+    "revision": "438f2a10022e2cf46b3b46424793aa6c",
+    "url": "/static/media/metrics.438f2a10.png"
+  },
+  {
     "revision": "e4c25de42623633b3496afca3ce01e06",
     "url": "/static/media/web.e4c25de4.svg"
   },
@@ -124,24 +128,24 @@ self.__precacheManifest = [
     "url": "/static/media/montserrat-bold.45af3727.woff2"
   },
   {
-    "revision": "d0d8af75aedd27ba147c6b6ad7d2eba7",
-    "url": "/static/media/montserrat-light.d0d8af75.woff2"
-  },
-  {
     "revision": "a820606bee2646d5ec81751628904dd4",
     "url": "/static/media/montserrat-light.a820606b.woff"
+  },
+  {
+    "revision": "d0d8af75aedd27ba147c6b6ad7d2eba7",
+    "url": "/static/media/montserrat-light.d0d8af75.woff2"
   },
   {
     "revision": "2c22fca2e6627676b0cd60ec1be3beb2",
     "url": "/static/media/Inconsolata-Regular.2c22fca2.ttf"
   },
   {
-    "revision": "9af662a0a6ac9204774f182f9f3a9651",
-    "url": "/static/media/Inconsolata-Bold.9af662a0.ttf"
-  },
-  {
     "revision": "5d92216467c24205442f0057f885b5da",
     "url": "/static/media/Monaco.5d922164.woff"
+  },
+  {
+    "revision": "9af662a0a6ac9204774f182f9f3a9651",
+    "url": "/static/media/Inconsolata-Bold.9af662a0.ttf"
   },
   {
     "revision": "5188bdc92adc2f462e4d2329bd490e09",
@@ -152,7 +156,7 @@ self.__precacheManifest = [
     "url": "/static/media/proj-background.de6f28cc.svg"
   },
   {
-    "revision": "9f263f73c0b99bb2dc4da5db25892adf",
+    "revision": "6c246d68c4fadd1efe3b4178a2aed610",
     "url": "/index.html"
   }
 ];
