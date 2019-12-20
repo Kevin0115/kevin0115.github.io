@@ -7,6 +7,7 @@ import Smartender from '../assets/images/smartender.png';
 import HelpingHand from '../assets/images/hands.png';
 import SuperRent from '../assets/images/superrent.png';
 import IssueExplorer from '../assets/images/issue-explorer.png';
+import Metrics from '../assets/images/metrics.png';
 
 const projectContents = [
   {
@@ -46,6 +47,15 @@ const projectContents = [
     githubUrl: "https://github.com/Kevin0115/github-issue-explorer/",
     demoUrl: "https://kevinchoi.dev/github-issue-explorer/",
     id: "issue-explorer"
+  },
+  {
+    projectName: "Personal Site Metrics",
+    description: "A clean, simple UI to view the visitor activity of this site (the one you're on right now). View history per session, or view activity by event category/date.",
+    tools: ["React.js", "React Bootstrap", "React-Vis", "Node.js", "Express.js", "PostgreSQL"],
+    imageUrl: Metrics,
+    githubUrl: "https://github.com/Kevin0115/PersonalSiteMetrics",
+    demoUrl: "https://www.kevinchoi.dev/PersonalSiteMetrics",
+    id: "metrics"
   },
   {
     projectName: "SuperRent",
