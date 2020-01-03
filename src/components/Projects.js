@@ -57,15 +57,15 @@ const projectContents = [
     demoUrl: "https://www.kevinchoi.dev/PersonalSiteMetrics",
     id: "metrics"
   },
-  {
-    projectName: "SuperRent",
-    description: "Browse a wide selection of vehicles, create/view/cancel a reservation, or book a rental. SuperRent is an all-inclusive platform for car rentals; includes both Client and Clerk roles.",
-    tools: ["React.js", "Node.js", "Express.js", "PostgreSQL"],
-    imageUrl: SuperRent,
-    githubUrl: "https://github.com/Kevin0115/SuperRent",
-    demoUrl: "https://www.kevinchoi.dev/SuperRent",
-    id: "superrent"
-  },
+  // {
+  //   projectName: "SuperRent",
+  //   description: "Browse a wide selection of vehicles, create/view/cancel a reservation, or book a rental. SuperRent is an all-inclusive platform for car rentals; includes both Client and Clerk roles.",
+  //   tools: ["React.js", "Node.js", "Express.js", "PostgreSQL"],
+  //   imageUrl: SuperRent,
+  //   githubUrl: "https://github.com/Kevin0115/SuperRent",
+  //   demoUrl: "https://www.kevinchoi.dev/SuperRent",
+  //   id: "superrent"
+  // },
 ];
 
 class Projects extends Component {
