@@ -1,15 +1,15 @@
 self.__precacheManifest = [
   {
-    "revision": "1730f34b86798593333f",
-    "url": "/static/css/main.a4830678.chunk.css"
+    "revision": "1b93957fc53f05e551bf",
+    "url": "/static/css/main.53a49cca.chunk.css"
   },
   {
-    "revision": "1730f34b86798593333f",
-    "url": "/static/js/main.1730f34b.chunk.js"
+    "revision": "1b93957fc53f05e551bf",
+    "url": "/static/js/main.1b93957f.chunk.js"
   },
   {
-    "revision": "f2f1404ee40c2c0e269a",
-    "url": "/static/js/1.f2f1404e.chunk.js"
+    "revision": "620c760c7db4dc6b3fc7",
+    "url": "/static/js/1.620c760c.chunk.js"
   },
   {
     "revision": "229c360febb4351a89df",
@@ -20,16 +20,16 @@ self.__precacheManifest = [
     "url": "/static/media/snapshot.b468ee3d.png"
   },
   {
-    "revision": "76d344f08412543c74ccd1fb2493d607",
-    "url": "/static/media/github.76d344f0.svg"
+    "revision": "b53ff55e09a092f9f0cbbf74af01b715",
+    "url": "/static/media/github.b53ff55e.svg"
   },
   {
-    "revision": "1ec0653fb833a8693f67aa111649edc9",
-    "url": "/static/media/resume.1ec0653f.svg"
+    "revision": "1ee8f8c08ceee623c855a3b8e8327be3",
+    "url": "/static/media/resume.1ee8f8c0.svg"
   },
   {
-    "revision": "812cbce76b50769a83493bc4d13596de",
-    "url": "/static/media/linkedin.812cbce7.svg"
+    "revision": "f5409d562d5d613246fafbd03fe6a857",
+    "url": "/static/media/linkedin.f5409d56.svg"
   },
   {
     "revision": "50f965035b0412904fcc1c97d01dff8a",
@@ -68,12 +68,12 @@ self.__precacheManifest = [
     "url": "/static/media/amazon2.6f755e9f.png"
   },
   {
-    "revision": "9dd4203f5af96a07b048f63b39e8fe35",
-    "url": "/static/media/link.9dd4203f.svg"
+    "revision": "99b25bca92e307e796f216bcc1c4071d",
+    "url": "/static/media/link.99b25bca.svg"
   },
   {
-    "revision": "c626a5a4e4d1894f2e12b527497cbfc3",
-    "url": "/static/media/youtube.c626a5a4.svg"
+    "revision": "d8baa1a4ee215f6dc55964993bd1dad4",
+    "url": "/static/media/youtube.d8baa1a4.svg"
   },
   {
     "revision": "82b89950ed60dd8f3f494ece647b3e23",
@@ -82,6 +82,10 @@ self.__precacheManifest = [
   {
     "revision": "5b13831a4dbe8e116c1f85c84ef6614a",
     "url": "/static/media/smartender.5b13831a.png"
+  },
+  {
+    "revision": "dae53c71caa30cfcab7ca46d7468c508",
+    "url": "/static/media/vocalshell.dae53c71.png"
   },
   {
     "revision": "8d895ce7aede2e964e301f0638f184b0",
@@ -100,12 +104,12 @@ self.__precacheManifest = [
     "url": "/static/media/web.e4c25de4.svg"
   },
   {
-    "revision": "86016af75ac677b21c2a1d2a4fad509e",
-    "url": "/static/media/database.86016af7.svg"
+    "revision": "33cec427b832658bd6691db99a05b303",
+    "url": "/static/media/database.33cec427.svg"
   },
   {
-    "revision": "ea72b58c3b11ea3bfa95e193cd4fb8b1",
-    "url": "/static/media/tools.ea72b58c.svg"
+    "revision": "84d15329736f2fb9aa095c86667faae9",
+    "url": "/static/media/tools.84d15329.svg"
   },
   {
     "revision": "3fb4d2902124120fbdc713a267b36403",
@@ -116,16 +120,16 @@ self.__precacheManifest = [
     "url": "/static/media/montserrat-regular.b94d4bb6.woff2"
   },
   {
+    "revision": "a820606bee2646d5ec81751628904dd4",
+    "url": "/static/media/montserrat-light.a820606b.woff"
+  },
+  {
     "revision": "b760b19f49a84fd4b3ce2252969dec30",
     "url": "/static/media/montserrat-bold.b760b19f.woff"
   },
   {
     "revision": "45af372786e4fc6d6c54a88018cd6ce5",
     "url": "/static/media/montserrat-bold.45af3727.woff2"
-  },
-  {
-    "revision": "a820606bee2646d5ec81751628904dd4",
-    "url": "/static/media/montserrat-light.a820606b.woff"
   },
   {
     "revision": "d0d8af75aedd27ba147c6b6ad7d2eba7",
@@ -136,27 +140,27 @@ self.__precacheManifest = [
     "url": "/static/media/Inconsolata-Regular.2c22fca2.ttf"
   },
   {
-    "revision": "9af662a0a6ac9204774f182f9f3a9651",
-    "url": "/static/media/Inconsolata-Bold.9af662a0.ttf"
-  },
-  {
     "revision": "5d92216467c24205442f0057f885b5da",
     "url": "/static/media/Monaco.5d922164.woff"
   },
   {
-    "revision": "5188bdc92adc2f462e4d2329bd490e09",
-    "url": "/static/media/vectorpaint.5188bdc9.svg"
+    "revision": "9af662a0a6ac9204774f182f9f3a9651",
+    "url": "/static/media/Inconsolata-Bold.9af662a0.ttf"
   },
   {
-    "revision": "de6f28cc07cbc5d161c502bdfc939cc8",
-    "url": "/static/media/proj-background.de6f28cc.svg"
+    "revision": "19f43d627c3d0916ec6634aa8a3782f0",
+    "url": "/static/media/vectorpaint.19f43d62.svg"
+  },
+  {
+    "revision": "96cf363c4b5432aa8e4e378f80a5c5d5",
+    "url": "/static/media/proj-background.96cf363c.svg"
   },
   {
     "revision": "6e413700bc205090430fa4419e942af5",
     "url": "/static/media/superrent.6e413700.png"
   },
   {
-    "revision": "dc6795730aee0d5bcf2f37844bb4ce5f",
+    "revision": "9d37eafa6556685fd846b70ae4d4464a",
     "url": "/index.html"
   }
 ];
