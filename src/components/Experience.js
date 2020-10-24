@@ -15,6 +15,17 @@ const experienceContents = [
   {
     company: "Amazon",
     team: "Tax Engine Machine Learning",
+    position: "Software Development Engineer",
+    date: "July 2020 - Present",
+    smallUrl: Amazon2,
+    imageUrl: Amazon,
+    description: [
+      "Working on innovative new ways to delegate machine learning in the product tax classification space"
+    ]
+  },
+  {
+    company: "Amazon",
+    team: "Tax Engine Machine Learning",
     position: "Software Development Engineer Intern",
     date: "May 2019 - July 2019",
     smallUrl: Amazon2,
