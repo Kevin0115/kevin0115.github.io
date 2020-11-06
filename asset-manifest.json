@@ -1,7 +1,7 @@
 {
-  "main.css": "/static/css/main.1ab1a321.chunk.css",
-  "main.js": "/static/js/main.2eff5af3.chunk.js",
-  "main.js.map": "/static/js/main.2eff5af3.chunk.js.map",
+  "main.css": "/static/css/main.1b83f11a.chunk.css",
+  "main.js": "/static/js/main.eb1c48ee.chunk.js",
+  "main.js.map": "/static/js/main.eb1c48ee.chunk.js.map",
   "static/js/1.cb6d8609.chunk.js": "/static/js/1.cb6d8609.chunk.js",
   "static/js/1.cb6d8609.chunk.js.map": "/static/js/1.cb6d8609.chunk.js.map",
   "runtime~main.js": "/static/js/runtime~main.229c360f.js",
@@ -29,12 +29,11 @@
   "static/media/web.svg": "/static/media/web.e4c25de4.svg",
   "static/media/database.svg": "/static/media/database.86016af7.svg",
   "static/media/tools.svg": "/static/media/tools.ea72b58c.svg",
-  "static/media/index.css": "/static/media/Inconsolata-Bold.9af662a0.ttf",
+  "static/media/index.css": "/static/media/Inconsolata-Regular.2c22fca2.ttf",
   "static/media/ExperienceItem.css": "/static/media/vectorpaint.5188bdc9.svg",
   "static/media/ProjectItem.css": "/static/media/proj-background.de6f28cc.svg",
-  "static/media/superrent.png": "/static/media/superrent.6e413700.png",
-  "static/css/main.1ab1a321.chunk.css.map": "/static/css/main.1ab1a321.chunk.css.map",
+  "static/css/main.1b83f11a.chunk.css.map": "/static/css/main.1b83f11a.chunk.css.map",
   "index.html": "/index.html",
-  "precache-manifest.c0c9ee374ce1108552477705341156a3.js": "/precache-manifest.c0c9ee374ce1108552477705341156a3.js",
+  "precache-manifest.80a667b1b6f74d8ac73128f2c0e2faab.js": "/precache-manifest.80a667b1b6f74d8ac73128f2c0e2faab.js",
   "service-worker.js": "/service-worker.js"
 }
