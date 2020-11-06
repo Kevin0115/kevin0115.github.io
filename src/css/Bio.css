@@ -10,3 +10,8 @@
 .bio p {
   font-size: 18px;
 }
+
+.bio a {
+  color: red;
+  text-decoration: none;
+}

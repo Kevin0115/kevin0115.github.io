@@ -66,7 +66,7 @@ const experienceContents = [
     company: "UBC",
     team: "Algorithms and Data Structures",
     position: "Computer Science Teaching Assistant",
-    date: "Sept 2018 - Present",
+    date: "Sept 2018 - April 2020",
     smallUrl: UBC2,
     imageUrl: UBC,
     description: [

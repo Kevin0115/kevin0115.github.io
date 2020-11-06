@@ -4,7 +4,7 @@ export const LINK_VISIT = 'linkVisit';
 export const NAV_TO = 'navTo';
 
 // API Endpoints
-export const API_BASE = 'https://ec2.kevnchoi.com/metric';
+export const API_BASE = 'https://personalsitemetrics.vercel.app/metric';
 
 // API Method
 export const POST = 'POST';

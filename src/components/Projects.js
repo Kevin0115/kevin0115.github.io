@@ -5,7 +5,6 @@ import ProjectItem from './ProjectItem';
 import ASAPSports from '../assets/images/asap-sports.png';
 import Smartender from '../assets/images/smartender.png';
 import HelpingHand from '../assets/images/hands.png';
-import SuperRent from '../assets/images/superrent.png';
 import IssueExplorer from '../assets/images/issue-explorer.png';
 import Metrics from '../assets/images/metrics.png';
 
@@ -32,7 +31,7 @@ const projectContents = [
   },
   {
     projectName: "ASAP Sports",
-    description: "Mobile application for finding sports games nearby. Yields the ability to join (or host) a game in the sport and capacity of your choosing.",
+    description: "Mobile application for finding games/sessions of your favourite sport nearby. Yields the ability to join (or host) a game in the sport and capacity of your choosing.",
     tools: ["React Native", "Python", "Django", "PostgreSQL"],
     imageUrl: ASAPSports,
     githubUrl: "https://github.com/aidoraide/ASAP-Sports",
@@ -41,7 +40,7 @@ const projectContents = [
   },
   {
     projectName: "GitHub Issue Explorer",
-    description: "Browse/explore issues from any public GitHub repo. Simply enter a repo URL. Allows for filtering based on issue status (open, closed, etc.).",
+    description: "Browse/explore issues from any public GitHub repo on a clean, simple UI. Simply enter a repo URL. Allows for filtering based on issue status (open, closed, etc.).",
     tools: ["React.js", "CSS3", "GitHub API"],
     imageUrl: IssueExplorer,
     githubUrl: "https://github.com/Kevin0115/github-issue-explorer/",
@@ -50,7 +49,7 @@ const projectContents = [
   },
   {
     projectName: "Personal Site Metrics",
-    description: "A clean, simple UI to view the visitor activity of this site (the one you're on right now). View history per session, or view activity by event category/date.",
+    description: "A React Bootstrap UI to view anonymous visitor activity of this site (the one you're on right now). View history per session, or view activity by event category/date.",
     tools: ["React.js", "React Bootstrap", "React-Vis", "Node.js", "Express.js", "PostgreSQL"],
     imageUrl: Metrics,
     githubUrl: "https://github.com/Kevin0115/PersonalSiteMetrics",
