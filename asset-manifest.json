@@ -1,7 +1,7 @@
 {
   "main.css": "/static/css/main.1b83f11a.chunk.css",
-  "main.js": "/static/js/main.a0b0c122.chunk.js",
-  "main.js.map": "/static/js/main.a0b0c122.chunk.js.map",
+  "main.js": "/static/js/main.b5b201dd.chunk.js",
+  "main.js.map": "/static/js/main.b5b201dd.chunk.js.map",
   "static/js/1.cb6d8609.chunk.js": "/static/js/1.cb6d8609.chunk.js",
   "static/js/1.cb6d8609.chunk.js.map": "/static/js/1.cb6d8609.chunk.js.map",
   "runtime~main.js": "/static/js/runtime~main.229c360f.js",
@@ -29,11 +29,11 @@
   "static/media/web.svg": "/static/media/web.e4c25de4.svg",
   "static/media/database.svg": "/static/media/database.86016af7.svg",
   "static/media/tools.svg": "/static/media/tools.ea72b58c.svg",
-  "static/media/index.css": "/static/media/Inconsolata-Bold.9af662a0.ttf",
+  "static/media/index.css": "/static/media/Monaco.5d922164.woff",
   "static/media/ExperienceItem.css": "/static/media/vectorpaint.5188bdc9.svg",
   "static/media/ProjectItem.css": "/static/media/proj-background.de6f28cc.svg",
   "static/css/main.1b83f11a.chunk.css.map": "/static/css/main.1b83f11a.chunk.css.map",
   "index.html": "/index.html",
-  "precache-manifest.cc764b27362097480440dd192a900c18.js": "/precache-manifest.cc764b27362097480440dd192a900c18.js",
+  "precache-manifest.3c42f283eb847545dfd33ce915ea039a.js": "/precache-manifest.3c42f283eb847545dfd33ce915ea039a.js",
   "service-worker.js": "/service-worker.js"
 }
