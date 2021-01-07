@@ -1,7 +1,7 @@
 import { POST, API_BASE, SESSION_ID } from './Const';
 
 // API Helper
-export const postSession = (eventType) => {
+export const postSession = (eventType, inlink) => {
   fetch(API_BASE, {
     method: POST,
     headers: {
@@ -9,7 +9,8 @@ export const postSession = (eventType) => {
     },
     body: JSON.stringify({
       session_id: sessionStorage.getItem(SESSION_ID),
-      event_type: eventType
+      event_type: eventType,
+      inlink: inlink
     })
   })
   .then(res => res.json())

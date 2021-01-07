@@ -9,7 +9,7 @@ import Tools from '../assets/images/tools.svg';
 const skillsContents = [
   {
     layer: 'Front-end',
-    skill: ['React.js', 'React Native', 'HTML5/CSS3', 'JavaScript', 'Bootstrap', 'Vue.js'],
+    skill: ['React.js', 'React Native', 'Next.js', 'HTML5/CSS3', 'JavaScript', 'Bootstrap'],
     logo: FrontEnd
   },
   {

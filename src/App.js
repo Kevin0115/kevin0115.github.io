@@ -29,8 +29,11 @@ class App extends Component {
     const sessionId = Math.floor((Math.random() * 9999999) + 1);;
     sessionStorage.setItem(SESSION_ID, sessionId);
 
+    console.log("Referrer passed through API");
+    console.log(document.referrer);
+
     document.addEventListener('keydown', this.handleEsc);
-    postSession(SESSION_START);
+    postSession(SESSION_START, document.referrer);
   }
 
   render() {

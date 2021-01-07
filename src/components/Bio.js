@@ -5,6 +5,7 @@ import { LINK_VISIT } from '../Const';
 import { postSession } from '../Utils';
 
 const youtubeLink = "https://www.youtube.com/watch?v=IybIOMcP_TA&feature=youtu.be"
+const twitchLink = "https://www.twitch.tv/kevjevtv"
 
 class Bio extends Component {
   handleLinkClick(itemName) {
@@ -16,7 +17,18 @@ class Bio extends Component {
       <div className="bio">
         <h1>About Me</h1>
         <p>I'm a UBC Computer Engineering graduate, with an interest in full-stack engineering.</p>
-        <p>Besides building apps, I enjoy snowboarding, photography, playing piano/guitar, and gaming.</p>
+        <p>Besides building apps, I enjoy snowboarding, photography, playing piano/guitar, and&nbsp;
+          <a 
+            rel="noopener noreferrer"
+            href={twitchLink}
+            target="_blank"
+            className="twitch-link"
+            onClick={() => this.handleLinkClick("Twitch")}
+          >
+            gaming
+          </a>
+          .
+        </p>
         <p>
           I also build custom mechanical keyboards on my&nbsp;
           <a 
@@ -30,7 +42,7 @@ class Bio extends Component {
           </a>
           !
         </p>
-        <p>I'm a hackathon enthusiast with two 1st place prizes under my belt.</p>
+        <p>I attend as many hackathons as I can, and have had the privilege of winning twice.</p>
         <p>Check out my work experience and projects below.</p>
       </div>
     );
