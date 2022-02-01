@@ -42,7 +42,7 @@ class Bio extends Component {
           </a>
           !
         </p>
-        <p>I attend as many hackathons as I can, and have had the privilege of winning twice.</p>
+        <p>I love attending hackathons, and have had the honour of winning twice.</p>
         <p>Check out my work experience and projects below.</p>
       </div>
     );
