@@ -5,13 +5,27 @@ import ExperienceItem from './ExperienceItem';
 import Facebook from '../assets/images/facebook.png';
 import SAP from '../assets/images/sap.png';
 import UBC from '../assets/images/ubc.png';
+import Meta from '../assets/images/meta.png';
 import Amazon from '../assets/images/amazon.png';
 import Facebook2 from '../assets/images/facebook2.png';
 import SAP2 from '../assets/images/sap2.png';
 import UBC2 from '../assets/images/ubc2.png';
 import Amazon2 from '../assets/images/amazon2.png';
+import Meta2 from '../assets/images/meta2.png';
 
 const experienceContents = [
+  {
+    company: "Meta",
+    team: "Bootcamping",
+    position: "Software Engineer",
+    date: "April 2022 - Present",
+    smallUrl: Meta2,
+    imageUrl: Meta,
+    description: [
+      "Currently in the Team Selection process in the Reality Labs space!",
+      "Will probably forget to update this for a while"
+    ]
+  },
   {
     company: "Amazon",
     team: "Tax Engine Machine Learning",
@@ -20,9 +34,9 @@ const experienceContents = [
     smallUrl: Amazon2,
     imageUrl: Amazon,
     description: [
-      "Working on innovative new ways to delegate machine learning in the product tax classification space",
-      "Constructing multiple services and infrastructures around tax ML models using native AWS",
-      "Utilizing model predictions to calculate post-launch metrics for business analytics"
+      "Worked on innovative new ways to delegate machine learning in the product tax classification space",
+      "Constructed multiple services and infrastructures around tax ML models using native AWS",
+      "Utilized model predictions to calculate post-launch metrics for business analytics"
     ]
   },
   {
