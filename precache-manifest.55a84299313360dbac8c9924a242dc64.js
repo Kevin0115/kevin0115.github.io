@@ -1,11 +1,11 @@
 self.__precacheManifest = [
   {
-    "revision": "d2224febcd89189c0988",
-    "url": "/static/css/main.b070ef99.chunk.css"
+    "revision": "ea4b74420cd6caabe9c2",
+    "url": "/static/css/main.3aea67eb.chunk.css"
   },
   {
-    "revision": "d2224febcd89189c0988",
-    "url": "/static/js/main.d2224feb.chunk.js"
+    "revision": "ea4b74420cd6caabe9c2",
+    "url": "/static/js/main.ea4b7442.chunk.js"
   },
   {
     "revision": "9552751b5dae4b593517",
@@ -116,14 +116,6 @@ self.__precacheManifest = [
     "url": "/static/media/tools.ea72b58c.svg"
   },
   {
-    "revision": "3fb4d2902124120fbdc713a267b36403",
-    "url": "/static/media/montserrat-regular.3fb4d290.woff"
-  },
-  {
-    "revision": "45af372786e4fc6d6c54a88018cd6ce5",
-    "url": "/static/media/montserrat-bold.45af3727.woff2"
-  },
-  {
     "revision": "b760b19f49a84fd4b3ce2252969dec30",
     "url": "/static/media/montserrat-bold.b760b19f.woff"
   },
@@ -132,12 +124,20 @@ self.__precacheManifest = [
     "url": "/static/media/montserrat-regular.b94d4bb6.woff2"
   },
   {
+    "revision": "3fb4d2902124120fbdc713a267b36403",
+    "url": "/static/media/montserrat-regular.3fb4d290.woff"
+  },
+  {
     "revision": "a820606bee2646d5ec81751628904dd4",
     "url": "/static/media/montserrat-light.a820606b.woff"
   },
   {
     "revision": "d0d8af75aedd27ba147c6b6ad7d2eba7",
     "url": "/static/media/montserrat-light.d0d8af75.woff2"
+  },
+  {
+    "revision": "45af372786e4fc6d6c54a88018cd6ce5",
+    "url": "/static/media/montserrat-bold.45af3727.woff2"
   },
   {
     "revision": "5d92216467c24205442f0057f885b5da",
@@ -152,6 +152,10 @@ self.__precacheManifest = [
     "url": "/static/media/Inconsolata-Bold.9af662a0.ttf"
   },
   {
+    "revision": "fc23bc32024b1b803ea6abcf47f3b573",
+    "url": "/static/media/CascadiaMono-SemiLight.fc23bc32.woff2"
+  },
+  {
     "revision": "5188bdc92adc2f462e4d2329bd490e09",
     "url": "/static/media/vectorpaint.5188bdc9.svg"
   },
@@ -160,7 +164,7 @@ self.__precacheManifest = [
     "url": "/static/media/proj-background.de6f28cc.svg"
   },
   {
-    "revision": "84ac3f8e9d12a27a1a7a83d7355aca85",
+    "revision": "9a1de0d742fe2a641db7553468f2b0ff",
     "url": "/index.html"
   }
 ];
