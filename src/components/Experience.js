@@ -16,14 +16,14 @@ import Meta2 from '../assets/images/meta2.png';
 const experienceContents = [
   {
     company: "Meta",
-    team: "Bootcamping",
+    team: "Assistant on VR",
     position: "Software Engineer",
     date: "April 2022 - Present",
     smallUrl: Meta2,
     imageUrl: Meta,
     description: [
-      "Currently in the Team Selection process in the Reality Labs space!",
-      "Will probably forget to update this for a while"
+      "Expanding the voice command utilities space for Meta's AR/VR devices",
+      "Fostering the best voice command experiences by closely observing client feedback and usage data"
     ]
   },
   {

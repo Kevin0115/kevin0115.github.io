@@ -8,12 +8,12 @@ import Tools from '../assets/images/tools.svg';
 
 const skillsContents = [
   {
-    layer: 'Front-end',
-    skill: ['React.js', 'React Native', 'Next.js', 'HTML5/CSS3', 'JavaScript', 'Bootstrap'],
+    layer: 'Front End',
+    skill: ['React.js', 'React Native', 'Next.js', 'HTML5/CSS3', 'JavaScript', 'Android'],
     logo: FrontEnd
   },
   {
-    layer: 'Back-end',
+    layer: 'Back End',
     skill: ['Java', 'Python/Flask', 'Node/Express', 'C/C++', 'PostgreSQL', 'MongoDB'],
     logo: BackEnd
   },

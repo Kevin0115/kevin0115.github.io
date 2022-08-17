@@ -7,6 +7,7 @@ import { postSession } from '../Utils';
 import Resume from '../assets/images/resume.svg';
 import GitHub from '../assets/images/github.svg';
 import LinkedIn from '../assets/images/linkedin.svg';
+import YouTube from '../assets/images/youtube.svg';
 import PDF from '../assets/Resume.pdf';
 
 const linkItems = [
@@ -24,6 +25,11 @@ const linkItems = [
     itemName: "Resume",
     externalUrl: PDF,
     imageUrl: Resume,
+  },
+  {
+    itemName: "Youtube",
+    externalUrl: "https://youtu.be/rYTiVv36eOY",
+    imageUrl: YouTube,
   }
 ]
 

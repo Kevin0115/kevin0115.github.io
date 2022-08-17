@@ -13,7 +13,7 @@
 .typewriter span {
   height: 48px;
   width: 28px;
-  margin: 8px 6px 0;
+  margin: 6px 8px 0;
   background-color: #000000ad;
   animation: blink 1s steps(1) infinite;
 }
@@ -21,6 +21,19 @@
 @keyframes blink {
   50% {
     background-color: transparent;
+  }
+}
+
+@media only screen and (max-width: 1400px) {
+  .typewriter {
+    font-size: 36px;
+    margin: 0;
+  }
+
+  .typewriter span {
+    height: 36px;
+    width: 20px;
+    margin: 4px 4px;
   }
 }
 
@@ -32,7 +45,20 @@
 
   .typewriter span {
     height: 28px;
-    width: 18px;
+    width: 12px;
     margin: 0 4px;
+  }
+}
+
+@media only screen and (max-width: 500px) {
+  .typewriter {
+    font-size: 18px;
+    margin: 0;
+  }
+
+  .typewriter span {
+    height: 20px;
+    width: 12px;
+    margin: 1px 2px;
   }
 }

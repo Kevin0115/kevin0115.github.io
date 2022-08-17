@@ -33,7 +33,7 @@ class Banner extends Component {
           />
           {
             this.state.nextLine ?
-            <TypeWriter text="Software Engineer"/>
+            <TypeWriter text="Software Engineer @ Meta"/>
             :
             <div className="space-holder" />
           }

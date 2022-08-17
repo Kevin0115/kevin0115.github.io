@@ -4,7 +4,7 @@ import '../css/Bio.css';
 import { LINK_VISIT } from '../Const';
 import { postSession } from '../Utils';
 
-const youtubeLink = "https://www.youtube.com/watch?v=IybIOMcP_TA&feature=youtu.be"
+const youtubeLink = "https://youtu.be/rYTiVv36eOY"
 const twitchLink = "https://www.twitch.tv/kevjevtv"
 const hackathonLink = "https://medium.com/nwplusubc/build-day-2019-winning-projects-41b731bf8261#:~:text=Team%3A%20Edmund%20Oh%2C%20Emma%20Oh%2C%20Dooyong%20Pan%2C%20Gary%20Hwu%2C%20Kevin%20Choi";
 
