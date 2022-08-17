@@ -53,7 +53,7 @@
 }
 
 .project-subtitle {
-  font-family: 'Monaco';
+  font-family: 'Cascadia';
   font-style: italic;
   color: #7d7d85;
 }
@@ -108,14 +108,14 @@
 
 .url-link p {
   margin: 0;
-  font-family: 'Monaco';
+  font-family: 'Cascadia';
   color: #000000;
 }
 
 .tool {
   margin: 0 8px 4px 0;
   padding: 4px 8px;
-  font-family: 'Monaco';
+  font-family: 'Cascadia';
   background-color: #7d7d85;
   border-radius: 4px;
   color: #ffffff;

@@ -1,11 +1,13 @@
 import React, { Component } from 'react';
 import '../css/TypeWriter.css';
 
+const separator = '~$ ';
+
 class TypeWriter extends Component {
   constructor(props) {
     super(props);
     this.state = {
-      text: '> ',
+      text: separator,
       hideCursor: false
     };
     this.nextLine = this.nextLine.bind(this);
@@ -19,7 +21,7 @@ class TypeWriter extends Component {
   }
 
   type(text, speed, delay) {
-    let str = '> ';
+    let str = separator;
     let typeSpeed = 0;
     let i = 0;
 

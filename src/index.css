@@ -17,7 +17,7 @@ code {
 }
 
 h1, h2 {
-  font-family: 'Monaco';
+  font-family: 'Cascadia';
 }
 
 @font-face {
@@ -62,6 +62,13 @@ h1, h2 {
   font-weight: normal;
   src: local("Monaco"),
   url(./assets/fonts/Monaco.woff) format("woff");
+}
+
+@font-face {
+  font-family: "Cascadia";
+  font-weight: normal;
+  src: local("Cascadia"),
+  url(./assets/fonts/CascadiaMono-SemiLight.woff2) format("woff2");
 }
 
 @media only screen and (max-width: 900px) {
