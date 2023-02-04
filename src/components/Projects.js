@@ -20,6 +20,15 @@ const projectContents = [
     id: "helpinghand"
   },
   {
+    projectName: "Personal Site Metrics",
+    description: "A React Bootstrap UI to view anonymous visitor activity of this site (the one you're on right now). View history per session, or view activity by event category/date.",
+    tools: ["React.js", "React Bootstrap", "React-Vis", "Node.js", "Express.js", "PostgreSQL"],
+    imageUrl: Metrics,
+    githubUrl: "https://github.com/Kevin0115/PersonalSiteMetrics",
+    demoUrl: "https://www.kevinchoi.dev/PersonalSiteMetrics",
+    id: "metrics"
+  },
+  {
     projectName: "Smartender",
     description: "An automated bartending machine controlled by a mobile application aimed to reduce lines at clubs and bars. Utilizes our own BarCoin cryptocurrency as a secure payment system.",
     tools: ["React Native", "Node.js", "Express.js", "MongoDB", "Python", "Blockchain", "AWS", "Raspberry Pi"],
@@ -38,24 +47,15 @@ const projectContents = [
     demoUrl: "https://expo.io/@kevin0115/ASAP-Sports",
     id: "asap-sports"
   },
-  {
-    projectName: "GitHub Issue Explorer",
-    description: "Browse/explore issues from any public GitHub repo on a clean, simple UI. Simply enter a repo URL. Allows for filtering based on issue status (open, closed, etc.).",
-    tools: ["React.js", "CSS3", "GitHub API"],
-    imageUrl: IssueExplorer,
-    githubUrl: "https://github.com/Kevin0115/github-issue-explorer/",
-    demoUrl: "https://kevinchoi.dev/github-issue-explorer/",
-    id: "issue-explorer"
-  },
-  {
-    projectName: "Personal Site Metrics",
-    description: "A React Bootstrap UI to view anonymous visitor activity of this site (the one you're on right now). View history per session, or view activity by event category/date.",
-    tools: ["React.js", "React Bootstrap", "React-Vis", "Node.js", "Express.js", "PostgreSQL"],
-    imageUrl: Metrics,
-    githubUrl: "https://github.com/Kevin0115/PersonalSiteMetrics",
-    demoUrl: "https://www.kevinchoi.dev/PersonalSiteMetrics",
-    id: "metrics"
-  },
+  // {
+  //   projectName: "GitHub Issue Explorer",
+  //   description: "Browse/explore issues from any public GitHub repo on a clean, simple UI. Simply enter a repo URL. Allows for filtering based on issue status (open, closed, etc.).",
+  //   tools: ["React.js", "CSS3", "GitHub API"],
+  //   imageUrl: IssueExplorer,
+  //   githubUrl: "https://github.com/Kevin0115/github-issue-explorer/",
+  //   demoUrl: "https://kevinchoi.dev/github-issue-explorer/",
+  //   id: "issue-explorer"
+  // },
   // {
   //   projectName: "SuperRent",
   //   description: "Browse a wide selection of vehicles, create/view/cancel a reservation, or book a rental. SuperRent is an all-inclusive platform for car rentals; includes both Client and Clerk roles.",
