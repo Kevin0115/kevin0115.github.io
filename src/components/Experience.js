@@ -16,14 +16,15 @@ import Meta2 from '../assets/images/meta2.png';
 const experienceContents = [
   {
     company: "Meta",
-    team: "Assistant on VR",
+    team: "Assistant on VR/Smart Glasses Experiences",
     position: "Software Engineer",
     date: "April 2022 - Present",
     smallUrl: Meta2,
     imageUrl: Meta,
     description: [
       "Expanding the voice command utilities space for Meta's AR/VR devices",
-      "Fostering the best voice command experiences by closely observing client feedback and usage data"
+      "Fostering the best voice command experiences by closely observing client feedback and usage data",
+      "Further developing communications experiences for Meta's smart glasses products"
     ]
   },
   {
@@ -38,6 +39,19 @@ const experienceContents = [
       "Constructed multiple services and infrastructures around tax ML models using native AWS",
       "Utilized model predictions to calculate post-launch metrics for business analytics"
     ]
+  },
+  {
+    company: "UBC",
+    team: "Algorithms and Data Structures",
+    position: "Computer Science Teaching Assistant",
+    date: "Sept 2018 - April 2020",
+    smallUrl: UBC2,
+    imageUrl: UBC,
+    description: [
+      "Provided weekly individual guidance and instruction regarding course material during office hours",
+      "Facilitated weekly lab sessions by assisting students with C++ programming and theory assignments",
+      "Evaluated students' examinations and theory assignments by developing own grading rubric utilizing Gradescope"
+    ],
   },
   {
     company: "Amazon",
@@ -78,19 +92,6 @@ const experienceContents = [
       "Ensured stability of SAP BusinessObjects Cloud by writing Python scripts to automate modularized UI tests",
     ],
   },
-  {
-    company: "UBC",
-    team: "Algorithms and Data Structures",
-    position: "Computer Science Teaching Assistant",
-    date: "Sept 2018 - April 2020",
-    smallUrl: UBC2,
-    imageUrl: UBC,
-    description: [
-      "Provided weekly individual guidance and instruction regarding course material during office hours",
-      "Facilitated weekly lab sessions by assisting students with C++ programming and theory assignments",
-      "Evaluated students' examinations and theory assignments by developing own grading rubric utilizing Gradescope"
-    ],
-  }
 ]
 
 class Experience extends Component {
